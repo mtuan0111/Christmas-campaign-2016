@@ -1,0 +1,97 @@
+doctype html
+html(lang="en")
+  head
+    meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    meta(http-equiv="Content-Style-Type" content="text/css")
+    title Christmas Campagin
+    link(rel="stylesheet" type="text/css" href="common/css/main.css" media="all")
+  body
+    #wrapper
+      #header
+        .content-inner
+          #logo
+          #campaign-name
+            img#campaign-title(src="common/img/campaign-title.png")
+      #contents
+        .content-inner.card-page
+          #make-card
+            #editor-card
+
+            #toolbar-card
+              ul.tab
+                li(title="Test title")
+                  a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
+                    img(src='common/img/text-ico.png')
+                li(title="Test title")
+                  a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'background-part')")
+                    img(src='common/img/background-ico.png')
+                li(title="Test title")
+                  a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'object-part')")
+                    img(src='common/img/object-ico.png')
+              #text-part.tabcontent
+                label(for="card-title") Tiêu đề thiệp
+                textarea#card-title(placeholder="Nhập tiêu đề thiệp")
+
+                label(for="card-content") Nội dung thiệp
+                textarea#card-content(placeholder="Nhập nội dung thiệp")
+              #background-part.tabcontent
+                ul
+                  li(title="Test title")
+                    img(src="common/img/bg-01.png")
+                  li(title="Test title")
+                    img(src="common/img/bg-01.png")
+                  li(title="Test title")
+                    img(src="common/img/bg-01.png")
+                  li(title="Test title")
+                    img(src="common/img/bg-01.png")
+                  li(title="Test title")
+                    img(src="common/img/bg-01.png")
+                  li(title="Test title")
+                    img(src="common/img/bg-01.png")
+                  li(title="Test title")
+                    img(src="common/img/bg-01.png")
+              #object-part.tabcontent
+                ul
+                  li(title="Test title")
+                    img(src="common/img/ob-01.png")
+                  li(title="Test title")
+                    img(src="common/img/ob-01.png")
+                  li(title="Test title")
+                    img(src="common/img/ob-01.png")
+                  li(title="Test title")
+                    img(src="common/img/ob-01.png")
+                  li(title="Test title")
+                    img(src="common/img/ob-01.png")
+                  li(title="Test title")
+                    img(src="common/img/ob-01.png")
+                  li(title="Test title")
+                    img(src="common/img/ob-01.png")
+
+          p.next-function
+            a#btn-next(href="#") Hoàn thành
+      #footer
+        .content-inner
+    script(type='text/javascript' src="common/js/jquery-2.2.1.min.js")
+    script(type='text/javascript' src="common/js/jquery.jquery-ui.js")
+    script(type='text/javascript' src="common/js/common.js")
+    script(type='text/javascript').
+      function openTab(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the link that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }

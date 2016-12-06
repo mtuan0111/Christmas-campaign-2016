@@ -1,0 +1,91 @@
+/* Style the list */
+ul.tab
+    list-style-type: none
+    margin: 0
+    padding: 0
+    overflow: hidden
+
+
+    // border: 1px solid #ccc
+    // background-color: #f1f1f1
+
+/* Float the list items side by side */
+ul.tab li
+    float: left
+    height: 65px
+
+/* Style the links inside the list items */
+ul.tab li a
+    display: inline-block
+    color: black
+    text-align: center
+    padding: 14px 16px
+    text-decoration: none
+    transition: 0.3s
+    font-size: 17px
+
+/* Change background color of links on hover */
+ul.tab li a:hover
+    background-color: #ddd
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active
+    background: rgba(255,202,28,0)
+    background: -moz-linear-gradient(top, rgba(255,202,28,0) 0%, rgba(255,202,28,0.9) 100%)
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,202,28,0)), color-stop(100%, rgba(255,202,28,0.9)))
+    background: -webkit-linear-gradient(top, rgba(255,202,28,0) 0%, rgba(255,202,28,0.9) 100%)
+    background: -o-linear-gradient(top, rgba(255,202,28,0) 0%, rgba(255,202,28,0.9) 100%)
+    background: -ms-linear-gradient(top, rgba(255,202,28,0) 0%, rgba(255,202,28,0.9) 100%)
+    background: linear-gradient(to bottom, rgba(255,202,28,0) 0%, rgba(255,202,28,0.9) 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffca1c', endColorstr='#ffca1c', GradientType=0 )
+
+/* Style the tab content */
+.tabcontent
+    display: none
+    padding: 6px 12px
+    padding-top: 40px
+    // border: 1px solid #ccc
+    border-top: none
+    height: calc(100% - 65px)
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    overflow: auto
+    border-top: solid 2px #ffca1c
+    label
+        display: block
+        font-style: italic
+        font-size: 24px
+    ul
+        li
+            text-align: center
+            cursor: pointer
+            padding: 20px 0
+            &:hover
+                background: rgba(255,255,255,0.2)
+    &#text-part
+        textarea
+            -webkit-box-sizing: border-box
+            -moz-box-sizing: border-box
+            box-sizing: border-box
+            max-width: 100%
+            min-width: 100%
+            background-color: transparent
+            border: none
+            border-left: solid 2px #ffca1c
+            padding-left: 15px
+            font-size: 24px
+            margin-top: 10px
+            &:focus
+                outline: none
+                background: rgba(255,255,255,0.2)
+
+            &#card-title
+                height: 100px
+
+            &#card-content
+                height: 200px
+
+            & + label
+                margin-top: 20px
+

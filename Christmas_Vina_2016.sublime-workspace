@@ -1,0 +1,1791 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pn",
+				"bg-01.png	w:171 h:163"
+			],
+			[
+				"box",
+				"box-sizing	(_layout.sass)"
+			],
+			[
+				"text",
+				"text-ico.png	w:38 h:37"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"pos",
+				"pos:r	position:relative"
+			],
+			[
+				"made",
+				"make-card.html"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"com",
+				"compaign-title.png	w:687 h:192"
+			],
+			[
+				"translate",
+				"translateY"
+			],
+			[
+				"trans",
+				"translate	(import.css)"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"function",
+				"function(){var	(jquery-2.2.1.min.js)"
+			],
+			[
+				"inner",
+				"inner_text_shadow"
+			],
+			[
+				"user",
+				"user-infomation	(index.html)"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"poin",
+				"pointer-events"
+			],
+			[
+				"broad-login",
+				"broad-login.png	w:677 h:407"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block	(import.css)"
+			],
+			[
+				"fis",
+				"fish-object	(index.html)"
+			],
+			[
+				"fish",
+				"fish_01.png	w:210 h:113"
+			],
+			[
+				"roate",
+				"rotate(30deg	(index.jade)"
+			],
+			[
+				"rotate",
+				"rotate-wheel"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"event",
+				"event.preventDefault"
+			],
+			[
+				"de",
+				"delay_time"
+			],
+			[
+				"point",
+				"points_array"
+			],
+			[
+				"Point",
+				"point_value"
+			],
+			[
+				"load",
+				"load_score"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"at",
+				"attr	(import.css)"
+			],
+			[
+				"data",
+				"data-score	(index.jade)"
+			],
+			[
+				"Text",
+				"inner_text_shadow"
+			],
+			[
+				"rad",
+				"random_pointer"
+			],
+			[
+				"get",
+				"getRandomIntInclusive"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"inner_box_sha",
+				"inner_box_shadow"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"direction",
+				"direction-broad-01.png	w:179 h:64"
+			],
+			[
+				"img",
+				"img/"
+			],
+			[
+				"comm",
+				"common/"
+			],
+			[
+				"jqu",
+				"jquery.mousewheel.js"
+			],
+			[
+				"class",
+				"class='value_title"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"border-right",
+				"border-right-width"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"bind",
+				"bind(\"click	(init.js)"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"survey_thu",
+				"survey_thumbnails.jpg	w:82 h:62"
+			],
+			[
+				"survey_",
+				"survey_details.html"
+			],
+			[
+				"survey_re",
+				"survey_result.html"
+			],
+			[
+				"survet",
+				"survey_details.html"
+			],
+			[
+				"service",
+				"service_content"
+			],
+			[
+				"before",
+				"before_login	(index_new.html)"
+			],
+			[
+				"survey",
+				"survey_block"
+			],
+			[
+				"ser",
+				"service_sites	(blog_home.html)"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"box-",
+				"box-sizing"
+			],
+			[
+				"sur",
+				"survey_image"
+			],
+			[
+				"toggle",
+				"toggleClass	(init.js)"
+			],
+			[
+				"circle",
+				"circle_btn"
+			],
+			[
+				"review_details",
+				"review_details.html"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"ital",
+				"italic"
+			],
+			[
+				"a",
+				"attr()"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"opcat",
+				"opacity"
+			],
+			[
+				"func",
+				"function(){function"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"attr",
+				"attr()"
+			],
+			[
+				"banner",
+				"blog_article_banner	(merge_pc.css)"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"verti",
+				"vertical-align"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"icon_arrow_",
+				"icon_arrow_right_grey"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"href",
+				"href	Attr"
+			],
+			[
+				"child",
+				"child"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"icon_arro",
+				"icon_arrow	(search.html)"
+			],
+			[
+				"triger",
+				"trigger(\"click"
+			],
+			[
+				"icon_search",
+				"icon_searchtog	(search.html)"
+			],
+			[
+				"trigger",
+				"trigger(\"click"
+			],
+			[
+				"read",
+				"ready	(index_new.html)"
+			],
+			[
+				"search_",
+				"search_slider	(index_new.html)"
+			],
+			[
+				"al",
+				"alt='Apple"
+			],
+			[
+				"icon_searc",
+				"icon_searchtog.png	w:48 h:48"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"slod",
+				"solid"
+			],
+			[
+				"orang",
+				"orange_text	(index_new.css)"
+			],
+			[
+				"clas",
+				"class=\"knob"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"icon_arrow",
+				"icon_arrow_white	(merge_pc.css)"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"new",
+				"newIndex"
+			],
+			[
+				"icon_menusp",
+				"icon_menusp_or.png	w:44 h:38"
+			],
+			[
+				"searc",
+				"search_slider"
+			],
+			[
+				"search",
+				"search_slider"
+			],
+			[
+				"cur",
+				"current_search"
+			],
+			[
+				"chi",
+				"child	(salary.html)"
+			],
+			[
+				"cricle",
+				"circle_btn"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"pading",
+				"padding-bottom"
+			],
+			[
+				"main",
+				"main_banner_02.jpg	w:1920 h:700"
+			],
+			[
+				"lag",
+				"large"
+			],
+			[
+				"ma",
+				"masonry.pkgd.min.js"
+			],
+			[
+				"logo",
+				"logo_bgw.png	w:127 h:30"
+			],
+			[
+				"icon_menu",
+				"icon_menu_sub.png	w:4 h:16"
+			],
+			[
+				"javascript",
+				"javascript:void"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"content",
+				"content"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"artcle",
+				"article_img.jpg	w:270 h:105"
+			],
+			[
+				"pro",
+				"profile_banner_small.jpg	w:310 h:75"
+			],
+			[
+				"comp_",
+				"comp_job	(merge_pc.css)"
+			],
+			[
+				"icon_social",
+				"icon_social_tweet.png	w:32 h:32"
+			],
+			[
+				"li",
+				"list	(index_new.html)"
+			],
+			[
+				"javscript",
+				"javascript:void"
+			],
+			[
+				"font-w",
+				"font-weight"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"call",
+				"callback"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "make-card.jade",
+			"settings":
+			{
+				"buffer_size": 4086,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "make-card.html",
+			"settings":
+			{
+				"buffer_size": 4450,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "common/sass/_layout.sass",
+			"settings":
+			{
+				"buffer_size": 4964,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "common/sass/_tab.sass",
+			"settings":
+			{
+				"buffer_size": 2648,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"ipc",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"refle",
+				"Emmet: Reflect CSS Value"
+			],
+			[
+				"ss sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"Package Control: int",
+				"Package Control: Install Package"
+			],
+			[
+				"remove c",
+				"Package Control: Remove Channel"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pcrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Repository"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 457.0,
+		"history":
+		[
+			"open_project_folder",
+			"open_dir",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/Christmas_Vina_2016",
+		"/C/wamp/www/Christmas_Vina_2016/common",
+		"/C/wamp/www/Christmas_Vina_2016/common/css",
+		"/C/wamp/www/Christmas_Vina_2016/common/sass"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/Christmas_Vina_2016/common/sass/import.sass",
+		"/C/wamp/www/Christmas_Vina_2016/login.jade",
+		"/C/wamp/www/Christmas_Vina_2016/common/sass/_tab.sass",
+		"/C/wamp/www/Christmas_Vina_2016/make-card.html",
+		"/C/wamp/www/Christmas_Vina_2016/login.html",
+		"/C/wamp/www/Christmas_Vina_2016/index.jade",
+		"/C/wamp/www/Christmas_Vina_2016/index.html",
+		"/C/wamp/www/Christmas_Vina_2016/common/sass/_layout.sass",
+		"/C/wamp/www/Christmas_Vina_2016/common/sass/_animation.sass",
+		"/C/wamp/www/Lucky-wheel/common/css/import.css",
+		"/C/wamp/www/Lucky-wheel/common/sass/_animation.sass",
+		"/C/wamp/www/Lucky-wheel/common/sass/_base.sass",
+		"/C/wamp/www/Lucky-wheel/common/sass/_layout.sass",
+		"/C/wamp/www/Lucky-wheel/index.html",
+		"/C/wamp/www/Lucky-wheel/index.jade",
+		"/C/wamp/www/Lucky-wheel/README.md",
+		"/C/wamp/www/Lucky-wheel/common/jquery-2.2.1.min.js",
+		"/C/Users/BOM/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/yimresearch/public/yim-app/index.html",
+		"/C/wamp/www/yimresearch/application/templates/default/default/index.phtml",
+		"/C/wamp/www/yimresearch/application/modules/default/views/scripts/index/index.phtml",
+		"/C/wamp/www/yimresearch/application/templates/admin/default/index.phtml",
+		"/C/wamp/www/yimresearch/application/files/sendmail/surveymail1.html",
+		"/C/wamp/www/yimresearch/application/templates/landing_bk/index.phtml",
+		"/C/wamp/www/yimresearch/application/templates/member-comment/abc/index.phtml",
+		"/C/wamp/www/vinaresearch/application/modules/default/views/scripts/index/index.phtml",
+		"/C/wamp/www/vinaresearch/application/templates/default/default/index.phtml",
+		"/C/wamp/www/vinaresearch/application/modules/default/views/scripts/index.html",
+		"/C/wamp/www/vinaresearch/application/modules/default/views/scripts/index/index.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/common/css/merge_pc.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/company/css/merge_pc.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/css/merge_pc.css",
+		"/C/wamp/www/remo/public/layout/employer/css/merge_pc.css",
+		"/C/wamp/www/remo/public/layout/user/common/common/css/merge_sp.css",
+		"/C/wamp/www/remo/public/layout/user/common/common/css/merge_pc.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/edit_job.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/dashboard.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/search_jobseeker.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/review_details.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/followers.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/following.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/invoice.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/job_lists.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/jobseeker_details.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/login.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/payment_details.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/profile.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/search_jobseeker_deleted.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/signup.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/account_setting.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/after_login.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/applicants.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/applicants_details.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/company_faq.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/company_info.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/create_job.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/profile_resume.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/survey_result.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/blog_details.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/index_new.html",
+		"/C/Users/BOM/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/wamp/www/Remojob_Ph2/htdocs/job_search.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/salary_search.html",
+		"/C/Users/BOM/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp/www/Remojob_Ph2/htdocs/job_details.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/js/init.js",
+		"/C/wamp/www/Remojob_Ph2/htdocs/search.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/index.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/add_review.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/_add_review.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/ckeditor-edited/samples/old/inlinebycode.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/survey_home.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/survey_details.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/MFC6782.tmp",
+		"/C/wamp/www/Remojob_Ph2/htdocs/blog_home.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/after_login.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/css/index_new.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/ckeditor/lang/ru.js",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/intro.js/README.md",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/ckeditor/samples/old/inlinetextarea.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/ckeditor/samples/old/inlinebycode.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company_landing.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/ckeditor-edited/samples/old/inlinetextarea.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company_information.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/profile_resume_show.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company_landing3.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company_landing2.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company_privacy.html",
+		"/C/Users/BOM/Desktop/test.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/css/import.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company_faq.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/job_home.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/css/jquery.bxslider.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/company/reviewlist.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/js/Chart.js",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/css/merge_sp.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/js/common.js",
+		"/C/wamp/www/Remojob_Ph2/htdocs/contact_us.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/min/vendor/tubalmartin/cssmin/tests/yui/dollar-header.css",
+		"/C/Users/BOM/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/css/_backup/merge_pc.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/css/_backup/pc.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/index_new_explain.html",
+		"/C/wamp/www/Remojob_Ph2/htdocs/salary.html",
+		"/C/wamp/www/remo/public/layout/user/common/common/css/index_new.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/css/ionicons.min.css",
+		"/C/wamp/www/Remojob_Ph2/htdocs/salary_detail.html",
+		"/C/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf",
+		"/C/wamp/www/index.php",
+		"/C/wamp/www/remo/.htaccess",
+		"/C/wamp/www/remo/public/.htaccess",
+		"/C/wamp/www/.htaccess",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/wamp/www/Remojob_Ph2/htdocs/common/css/introjs.css",
+		"/C/wamp/bin/apache/apache2.4.9/conf/extra/httpd-ssl.conf",
+		"/C/wamp/www/Remojob_Ph2/htdocs/img/img.rar",
+		"/C/wamp/www/remo/public/layout/user/afterlogin/js/add_review.js",
+		"/C/wamp/www/remo/apps/user/views/user/addreview.phtml",
+		"/C/wamp/www/remo/public/layout/user/common/common/js/init.js",
+		"/C/wamp/www/remo/public/layout/user/default/js/salary_detail.js",
+		"/C/wamp/www/remo/public/layout/user/default/js/company.js",
+		"/C/wamp/www/remo/public/layout/employer/js/init.js",
+		"/C/wamp/www/remo/apps/employer/views/user/account.phtml",
+		"/C/wamp/www/remo/apps/employer/views/job/post.phtml",
+		"/C/wamp/www/remo/apps/employer/views/job/search.phtml",
+		"/C/wamp/www/remo/apps/employer/views/partials/company_photos.phtml",
+		"/C/wamp/www/remo/apps/employer/views/company/info.phtml",
+		"/C/wamp/www/remo/apps/employer/views/index/registerCompany.phtml"
+	],
+	"find":
+	{
+		"height": 74.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"",
+			"C:\\wamp\\www\\Remojob_Ph2\\htdocs\\company",
+			"",
+			".html",
+			"",
+			"*.phtml",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";",
+			")\n",
+			"\n",
+			";",
+			"active",
+			"active ",
+			"  li",
+			"li",
+			";",
+			"/",
+			"}",
+			"{",
+			";",
+			"bg-",
+			";",
+			"\n\n    ",
+			"}",
+			"    \n",
+			" {",
+			"#btn-login",
+			";",
+			"load_score",
+			"wheel_action",
+			"wheel-rotate-point",
+			"event",
+			"action",
+			"play",
+			"getRandomIntInclusive",
+			"leaf",
+			"30s",
+			"ranslate(450vw,20vh) sc",
+			",20vh",
+			"20vh",
+			"0vw,0)",
+			"(0vw,0",
+			"350vw",
+			"slateX(350vw) scale(1)",
+			"0",
+			"nslateX(350vw) scale(1)",
+			"translateX(0vw)",
+			"e(0.5",
+			"60s",
+			"5s",
+			"skewX(10deg)",
+			"2s",
+			"0.7",
+			"    0%",
+			"sform: translateX(0vw)",
+			"scale",
+			"    0%",
+			"%\n",
+			"0%",
+			"30%",
+			"10s",
+			"60s",
+			"    30%",
+			"2s",
+			"wX(-30deg)",
+			"wX(-30",
+			"X(-3deg)",
+			"  transform: skewX(-3deg)",
+			"ansform: translateX(0)",
+			"    0%",
+			"fly-horizontal",
+			"    0%",
+			"0%",
+			"30%",
+			"60s",
+			"300vw",
+			"translateX(300vw)",
+			"    100%\n        transform: translateX(300vw)",
+			"20s",
+			"wheel_rotate",
+			"rotate(0deg)",
+			"auto-wheel",
+			"5s",
+			"\"",
+			"fish",
+			"fish-jump",
+			"#user-infomation",
+			"3%",
+			" 5s",
+			" fish_jump",
+			"fish_jump",
+			"content_user",
+			"wrapper",
+			"data-userpoint",
+			".broad-name",
+			".nail-thick",
+			"broad-background",
+			"fff",
+			"cubic-bezier(0.5,-0.4, 0.5, 1.4)",
+			"8s",
+			"-color",
+			"all",
+			"5",
+			"background-color",
+			"top",
+			"cubic-bezier(0.5,-0.4, 0.5, 1.4)",
+			"fixed",
+			" -",
+			"ease",
+			"transform-origin",
+			"50% 50%",
+			"transform",
+			"transform-origin",
+			" 0%",
+			"0%",
+			" 2px",
+			"align-items: center",
+			"10%",
+			"translate(0px, 0px) rotate(0deg)\n\n    10%",
+			"nsform: translate(0px, 0px) rotate(0deg)",
+			"-ms-",
+			"ms",
+			"-ms",
+			"    0%\n        opacity: 0\n        -webkit-transform: translate(0px, 0px) rotate(0deg)\n\n    18%\n        opacity: 1.00\n        -webkit-transform: translate(0px, -33px) rotate(-18deg)\n\n    50%\n        -webkit-transform: translate(0px, -90px) rotate(-50deg)\n\n    85%\n        opacity: 1\n        -webkit-transform: translate(0px, -90px) rotate(51deg)\n\n    100%\n        opacity: 0\n        -webkit-transform: translate(0px, 0px) rotate(0deg)",
+			"0%\n        opacity: 0\n        -o-transform: translate(0px, 0px) rotate(0deg)\n\n    18%\n        opacity: 1.00\n        -o-transform: translate(0px, -33px) rotate(-18deg)\n\n    50%\n        -o-transform: translate(0px, -90px) rotate(-50deg)\n\n    85%\n        opacity: 1\n        -o-transform: translate(0px, -90px) rotate(51deg)\n\n    100%\n        opacity: 0\n        -o-transform: translate(0px, 0px) rotate(0deg)",
+			"y: 0.99",
+			"99",
+			"0.99",
+			"unt: 1",
+			"180",
+			"90deg",
+			"0.1s",
+			"30deg",
+			"rotate()",
+			"180deg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"common/css/merge_pc.css",
+			"data-report_id",
+			"data-ori-src",
+			"data-report_id",
+			".slider_rw_block",
+			"<nav class=\"fr\" id=\"nav_03\">\n                <",
+			"class=\"align_r\"",
+			"class=\"align_r ",
+			"class=\"align_r\"",
+			"class=\"align_c add_container\"",
+			"class=\"align_c\"",
+			"class=\"align_c ",
+			" class=\"align_r ",
+			" class=\"align_r\"",
+			" class=\"fr\"",
+			"blue_lighter_btn ",
+			"data-approve-ceo",
+			"dy Lau <img class=\"fr user_arrow\" src=\"img/icon_next_on.png\" alt=\"\" />",
+			"<a href=\"#\" class=\"change_point_btn circle_btn sp\">Change Points</a",
+			".change_point_btn",
+			"",
+			".search_btn",
+			"gray_btn",
+			"Before they sold out meggings irony, scenester tofu gentr...",
+			"<p class=\"blog_title\">\n												Skateboard williamsburg\n											</p>\n											<p class=\"review_text\">",
+			"<p class=\"blog_title\">\n												Skateboard williamsburg\n											</p><p class=\"review_text\">",
+			"review_text",
+			"<a href=\"#\"><h2 class=\"blog_title\">Godard thundercats health goth</h2></a>",
+			"<a class=\"author_name orange_text\" href=\"#\">Adelle ",
+			"Adelle Charles</a>",
+			"<a class=\"author_name orange_text\">",
+			"aria-valuenow=\"\"",
+			"aria-valuemax=\"\" aria-valuenow=\"\"",
+			"aria-valuemax=\" aria-valuenow=\"",
+			"data-text-search",
+			"data-count-num",
+			"",
+			"data-show-text",
+			"search_selection",
+			"<a href=\"javascript:void(0)\" class=\"grid-qes",
+			"</a>\n									<p class=\"grid-ans\">",
+			"a class=\"grid-qes",
+			"revert",
+			"class=\"radar_chart",
+			"Write your answer4\n										Write your answer",
+			"Write your answer3\n										Write your answer",
+			"Write your answer2\n										Write your answer",
+			"data-spl_ans",
+			"current-ins-ar-step",
+			"current-ins-ar-done",
+			"_des_step_02.png",
+			"label",
+			"",
+			": ",
+			"",
+			"	",
+			"",
+			"	",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "make-card.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								815
+							],
+							[
+								1016,
+								1016
+							],
+							[
+								1563,
+								1563
+							],
+							[
+								1656,
+								1656
+							],
+							[
+								1749,
+								1749
+							],
+							[
+								1842,
+								1842
+							],
+							[
+								1935,
+								1935
+							],
+							[
+								2028,
+								2028
+							],
+							[
+								2121,
+								2121
+							],
+							[
+								2271,
+								2271
+							],
+							[
+								2364,
+								2364
+							],
+							[
+								2457,
+								2457
+							],
+							[
+								2550,
+								2550
+							],
+							[
+								2643,
+								2643
+							],
+							[
+								2736,
+								2736
+							],
+							[
+								2829,
+								2829
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "make-card.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 957.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "common/sass/_layout.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4427,
+								4427
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3163.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "common/sass/_tab.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2648,
+								2648
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 130.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "",
+	"project": "Christmas_Vina_2016.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"defaultindex.phtml",
+				"application\\templates\\default\\default\\index.phtml"
+			],
+			[
+				"dindex.phtml",
+				"application\\templates\\admin\\default\\index.phtml"
+			],
+			[
+				"defaultindex.pht",
+				"application\\modules\\default\\views\\scripts\\index\\index.phtml"
+			],
+			[
+				"merge_p",
+				"common\\css\\merge_pc.css"
+			],
+			[
+				"job_de",
+				"job_details.html"
+			],
+			[
+				"init.js",
+				"common\\js\\init.js"
+			],
+			[
+				"index",
+				"index_new.html"
+			],
+			[
+				"index_new",
+				"index_new.html"
+			],
+			[
+				"pro",
+				"profile_resume.html"
+			],
+			[
+				"review",
+				"review_details.html"
+			],
+			[
+				"profile",
+				"profile_resume.html"
+			],
+			[
+				"init",
+				"common\\js\\init.js"
+			],
+			[
+				"inde",
+				"index_new.html"
+			],
+			[
+				"blog",
+				"blog_home.html"
+			],
+			[
+				"imp",
+				"common\\css\\import.css"
+			],
+			[
+				"index_nte",
+				"index_new.html"
+			],
+			[
+				"merge",
+				"common\\css\\merge_pc.css"
+			],
+			[
+				"bx",
+				"common\\css\\jquery.bxslider.css"
+			],
+			[
+				"merge_pc.css",
+				"common\\css\\merge_pc.css"
+			],
+			[
+				"common",
+				"common\\js\\common.js"
+			],
+			[
+				"index_new.html",
+				"index_new.html"
+			],
+			[
+				"header",
+				"min\\vendor\\tubalmartin\\cssmin\\tests\\yui\\dollar-header.css"
+			],
+			[
+				"merg",
+				"common\\css\\merge_pc.css"
+			],
+			[
+				"search",
+				"search.html"
+			],
+			[
+				"slara",
+				"salary_search.html"
+			],
+			[
+				"indec",
+				"common\\css\\index_new.css"
+			],
+			[
+				"import",
+				"common\\css\\import.css"
+			],
+			[
+				"after",
+				"after_login.html"
+			],
+			[
+				"merge_pc",
+				"common\\css\\merge_pc.css"
+			],
+			[
+				"chart",
+				"common\\js\\Chart.js"
+			],
+			[
+				"merge_sp",
+				"common\\css\\merge_sp.css"
+			],
+			[
+				"add",
+				"add_review.html"
+			],
+			[
+				"mers",
+				"common\\css\\merge_sp.css"
+			],
+			[
+				"addreiv",
+				"public\\layout\\user\\afterlogin\\js\\add_review.js"
+			],
+			[
+				"addrevi",
+				"public\\layout\\user\\afterlogin\\js\\add_review.js"
+			],
+			[
+				"mer",
+				"public\\layout\\user\\common\\common\\css\\merge_pc.css"
+			],
+			[
+				"",
+				"public\\layout\\user\\afterlogin\\js\\comp_dtl_ckeditor.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\wamp\\www\\Remojob_Ph2\\remo_layout.sublime-project"
+			],
+			[
+				"re",
+				"C:\\wamp\\www\\remo\\remo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

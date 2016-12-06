@@ -1,0 +1,37 @@
+doctype html
+html(lang="en")
+  head
+    meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    meta(http-equiv="Content-Style-Type" content="text/css")
+    title Christmas Campagin
+    link(rel="stylesheet" type="text/css" href="common/css/main.css" media="all")
+  body
+    #wrapper
+      #header
+        .content-inner
+          #logo
+          #campaign-name
+            img#campaign-title(src="common/img/campaign-title.png")
+      #contents
+        .content-inner
+          form#login(action="make-card.html")
+            div
+              //- label(for="username") Tài khoản
+              input#username(type="text" placeholder="Tài khoản" value="" required)
+            div
+              //- label(for="password") Mật khẩu
+              input#password(type="password" placeholder="Mật khẩu" value="" required)
+            div.next-function
+              input#btn-login(type="submit" value="Đăng nhập")
+          p.next-function
+            a#btn-next(href="#") Đăng nhập để tham gia ngay
+      #footer
+        .content-inner
+    script(type='text/javascript' src="common/js/jquery-2.2.1.min.js")
+    script(type='text/javascript' src="common/js/jquery.jquery-ui.js")
+    script(type='text/javascript' src="common/js/common.js")
+    script(type='text/javascript').
+      $(document).on("click","#btn-next",function(e){
+        $("#btn-login").trigger("click");
+        //- e.preventDafault();
+      })
