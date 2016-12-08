@@ -60,9 +60,12 @@ ul.tab li a:focus, .active
         li
             text-align: center
             cursor: pointer
-            padding: 20px 0
+            padding: 20px
             &:hover
                 background: rgba(255,255,255,0.2)
+            img
+                max-width: 100%
+                border: solid 1px rgba(0,0,0,0.2)
     &#text-part
         textarea
             -webkit-box-sizing: border-box
@@ -89,3 +92,18 @@ ul.tab li a:focus, .active
             & + label
                 margin-top: 20px
 
+.tabcontent
+    -webkit-animation: fadeEffect 0.5s
+    animation: fadeEffect 0.5s /* Fading effect takes 1 second */
+
+@-webkit-keyframes fadeEffect
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@keyframes fadeEffect
+    from
+        opacity: 0
+    to
+        opacity: 1

@@ -72,35 +72,38 @@ body {
   /* Let's get this party started */
   /* Track */
   /* Handle */ }
-  #contents .content-inner.card-page #make-card #editor-card {
-    width: 800px;
-    height: 600px;
-    background-color: #fff;
-    position: relative;
-    float: left; }
-    #contents .content-inner.card-page #make-card #editor-card:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      border: 3px #ffca1c solid;
-      opacity: 0.5; }
-  #contents .content-inner.card-page #make-card #toolbar-card {
-    width: 300px;
-    height: 600px;
-    background: #fff;
-    float: right;
-    color: initial;
-    background: white;
-    background: -moz-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(21%, white), color-stop(50%, rgba(255, 255, 255, 0.9)), color-stop(97%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
-    background: -webkit-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
-    background: -o-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
-    background: -ms-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
-    background: linear-gradient(to bottom, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); }
+  #contents .content-inner.card-page #make-card {
+    overflow: auto;
+    zoom: 1; }
+    #contents .content-inner.card-page #make-card #editor-card {
+      width: 800px;
+      height: 600px;
+      background-color: #fff;
+      position: relative;
+      float: left; }
+      #contents .content-inner.card-page #make-card #editor-card:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border: 3px #ffca1c solid;
+        opacity: 0.5; }
+    #contents .content-inner.card-page #make-card #toolbar-card {
+      width: 300px;
+      height: 600px;
+      background: #fff;
+      float: right;
+      color: initial;
+      background: white;
+      background: -moz-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(21%, white), color-stop(50%, rgba(255, 255, 255, 0.9)), color-stop(97%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
+      background: -webkit-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
+      background: -o-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
+      background: -ms-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
+      background: linear-gradient(to bottom, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); }
   #contents .content-inner.card-page ::-webkit-scrollbar {
     width: 4px; }
   #contents .content-inner.card-page ::-webkit-scrollbar-track {
@@ -614,9 +617,12 @@ ul.tab li a:focus, .active {
   .tabcontent ul li {
     text-align: center;
     cursor: pointer;
-    padding: 20px 0; }
+    padding: 20px; }
     .tabcontent ul li:hover {
       background: rgba(255, 255, 255, 0.2); }
+    .tabcontent ul li img {
+      max-width: 100%;
+      border: solid 1px rgba(0, 0, 0, 0.2); }
   .tabcontent#text-part textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -638,5 +644,20 @@ ul.tab li a:focus, .active {
       height: 200px; }
     .tabcontent#text-part textarea + label {
       margin-top: 20px; }
+
+.tabcontent {
+  -webkit-animation: fadeEffect 0.5s;
+  animation: fadeEffect 0.5s; }
+
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeEffect {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 /*# sourceMappingURL=main.css.map */
