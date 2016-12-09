@@ -71,17 +71,14 @@ body {
   padding: 0; }
   #contents .content-inner.card-page #make-card {
     overflow: hidden;
-    zoom: 1;
-    /* Let's get this party started */
-    /* Track */
-    /* Handle */ }
-    #contents .content-inner.card-page #make-card #editor-card {
+    zoom: 1; }
+    #contents .content-inner.card-page #make-card #editor-card, #contents .content-inner.card-page #make-card #submit-card {
       width: 800px;
       height: 600px;
       background-color: #fff;
       position: relative;
       float: left; }
-      #contents .content-inner.card-page #make-card #editor-card:before {
+      #contents .content-inner.card-page #make-card #editor-card:before, #contents .content-inner.card-page #make-card #submit-card:before {
         content: "";
         position: absolute;
         top: 0;
@@ -94,6 +91,8 @@ body {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         pointer-events: none; }
+    #contents .content-inner.card-page #make-card #submit-card + #toolbar-card {
+      background: transparent; }
     #contents .content-inner.card-page #make-card #toolbar-card {
       width: 300px;
       height: 600px;
@@ -107,19 +106,39 @@ body {
       background: -o-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
       background: -ms-linear-gradient(top, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
       background: linear-gradient(to bottom, white 0%, white 21%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0) 97%, rgba(255, 255, 255, 0) 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); }
-    #contents .content-inner.card-page #make-card ::-webkit-scrollbar {
-      width: 4px; }
-    #contents .content-inner.card-page #make-card ::-webkit-scrollbar-track {
-      /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) */
-      width: 0;
-      /*display:none */
-      background: transparent; }
-    #contents .content-inner.card-page #make-card ::-webkit-scrollbar-thumb {
-      background: #ffca1c;
-      /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5) */ }
-    #contents .content-inner.card-page #make-card ::-webkit-scrollbar-thumb:window-inactive {
-      /*background: rgba(255,0,0,0.4) */ }
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+      /* Let's get this party started */
+      /* Track */
+      /* Handle */ }
+      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar {
+        width: 4px; }
+      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar-track {
+        /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) */
+        width: 0;
+        /*display:none */
+        background: transparent; }
+      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar-thumb {
+        background: #ffca1c;
+        /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5) */ }
+      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar-thumb:window-inactive {
+        /*background: rgba(255,0,0,0.4) */ }
+      #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        background-color: #ffca1c;
+        color: #454545;
+        font-size: 120%;
+        font-weight: bold; }
+        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a#submit-btn {
+          opacity: 0.8; }
+        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a#download-btn {
+          opacity: 0.7; }
+        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a#cancel-btn {
+          opacity: 0.6; }
+        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a:hover {
+          opacity: 0.9 !important; }
 
 a {
   color: #0795cc;
