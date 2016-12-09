@@ -34,13 +34,13 @@
               </div>
               <div id="background-part" class="tabcontent">
                 <ul>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-02.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-03.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-02.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-03.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
                 </ul>
               </div>
               <div id="object-part" class="tabcontent">
@@ -81,19 +81,19 @@
       function openTab(evt, cityName) {
         // Declare all variables
         var i, tabcontent, tablinks;
-
+      
         // Get all elements with class="tabcontent" and hide them
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
             tabcontent[i].style.display = "none";
         }
-
+      
         // Get all elements with class="tablinks" and remove the class "active"
         tablinks = document.getElementsByClassName("tablinks");
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
-
+      
         // Show the current tab, and add an "active" class to the link that opened the tab
         document.getElementById(cityName).style.display = "block";
         evt.currentTarget.className += " active";

@@ -7,6 +7,7 @@ body
     font-size: 22px
     font-style: normal
     font-variant: normal
+
 #wrapper .content-inner
     -webkit-box-sizing:  border-box
     -moz-box-sizing: border-box
@@ -85,7 +86,7 @@ body
         #make-card
             overflow: hidden
             zoom: 1
-            #editor-card, #submit-card
+            #editor-card, #submit-card, #detail-card
                 width: 800px
                 height: 600px
                 background-color: #fff
@@ -109,7 +110,7 @@ body
                 & + #toolbar-card
                     background: transparent
 
-            #toolbar-card
+            #toolbar-card, #info-card
                 width: 300px
                 height: 600px
                 background: #fff
@@ -158,8 +159,79 @@ body
                             &#submit-btn
                                 opacity: 0.8
                             &#download-btn
-                                opacity: 0.7
-                            &#cancel-btn
                                 opacity: 0.6
+                            &#cancel-btn
+                                opacity: 0.4
                             &:hover
                                 opacity: 0.9 !important
+        #list-card
+            overflow: hidden
+            zoom: 1
+            li
+                width: 30%
+                float: left
+                margin: 2% 0
+                position: relative
+                overflow: hidden
+                img
+                    max-width: 100%
+                    -webkit-transition: margin-left 0.4s
+                    -o-transition: margin-left 0.4s
+                    transition: margin-left 0.4s
+
+                &:nth-child(3n-1)
+                    margin-left: 5%
+                    margin-right: 5%
+                &:hover
+                    .info-point
+                        margin-left: 0
+                    img
+                        margin-left: 30%
+
+                .info-point
+                    font-size: 111%
+                    position: absolute
+                    top: 0
+                    bottom: 0
+                    width: 30%
+                    margin-left: -30%
+                    background-color: rgba(255,255,255,0.8)
+                    color: #454545
+                    font-weight: bold
+                    -webkit-transition: margin-left 0.4s
+                    -o-transition: margin-left 0.4s
+                    transition: margin-left 0.4s
+                    a
+                        display: block
+                        margin: 20px 30%
+                        text-align: center
+                        text-decoration: none
+                        color: #454545
+                        &:before
+                            content: ""
+                            height: 20px
+                            width: 100%
+                            display: inline-block
+                            -webkit-transition: -webkit-transform 0.4s
+                            -o-transition: -o-transform 0.4s
+                            transition: transform 0.4s
+                            /* vertical-align: middle */
+                        &:hover
+                            &:before
+                                -webkit-transform: scale(1.5)
+                                -ms-transform: scale(1.5)
+                                -o-transform:  scale(1.5)
+                                transform: scale(1.5)
+
+                        &.org-point
+                            &:before
+                                background: url(../img/point-ico.png) no-repeat center
+                                background-size: contain
+                        &.like-point
+                            &:before
+                                background: url(../img/like-ico.png) no-repeat center
+                                background-size: contain
+                        &.comment-point
+                            &:before
+                                background: url(../img/comment-ico.png) no-repeat center
+                                background-size: contain

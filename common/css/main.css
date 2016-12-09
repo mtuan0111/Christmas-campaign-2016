@@ -72,13 +72,13 @@ body {
   #contents .content-inner.card-page #make-card {
     overflow: hidden;
     zoom: 1; }
-    #contents .content-inner.card-page #make-card #editor-card, #contents .content-inner.card-page #make-card #submit-card {
+    #contents .content-inner.card-page #make-card #editor-card, #contents .content-inner.card-page #make-card #submit-card, #contents .content-inner.card-page #make-card #detail-card {
       width: 800px;
       height: 600px;
       background-color: #fff;
       position: relative;
       float: left; }
-      #contents .content-inner.card-page #make-card #editor-card:before, #contents .content-inner.card-page #make-card #submit-card:before {
+      #contents .content-inner.card-page #make-card #editor-card:before, #contents .content-inner.card-page #make-card #submit-card:before, #contents .content-inner.card-page #make-card #detail-card:before {
         content: "";
         position: absolute;
         top: 0;
@@ -93,7 +93,7 @@ body {
         pointer-events: none; }
     #contents .content-inner.card-page #make-card #submit-card + #toolbar-card {
       background: transparent; }
-    #contents .content-inner.card-page #make-card #toolbar-card {
+    #contents .content-inner.card-page #make-card #toolbar-card, #contents .content-inner.card-page #make-card #info-card {
       width: 300px;
       height: 600px;
       background: #fff;
@@ -110,19 +110,19 @@ body {
       /* Let's get this party started */
       /* Track */
       /* Handle */ }
-      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar {
+      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar, #contents .content-inner.card-page #make-card #info-card ::-webkit-scrollbar {
         width: 4px; }
-      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar-track {
+      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar-track, #contents .content-inner.card-page #make-card #info-card ::-webkit-scrollbar-track {
         /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) */
         width: 0;
         /*display:none */
         background: transparent; }
-      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar-thumb {
+      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar-thumb, #contents .content-inner.card-page #make-card #info-card ::-webkit-scrollbar-thumb {
         background: #ffca1c;
         /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5) */ }
-      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar-thumb:window-inactive {
+      #contents .content-inner.card-page #make-card #toolbar-card ::-webkit-scrollbar-thumb:window-inactive, #contents .content-inner.card-page #make-card #info-card ::-webkit-scrollbar-thumb:window-inactive {
         /*background: rgba(255,0,0,0.4) */ }
-      #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a {
+      #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a, #contents .content-inner.card-page #make-card #info-card .method-btn li a {
         display: block;
         text-align: center;
         padding: 20px;
@@ -131,14 +131,77 @@ body {
         color: #454545;
         font-size: 120%;
         font-weight: bold; }
-        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a#submit-btn {
+        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a#submit-btn, #contents .content-inner.card-page #make-card #info-card .method-btn li a#submit-btn {
           opacity: 0.8; }
-        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a#download-btn {
-          opacity: 0.7; }
-        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a#cancel-btn {
+        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a#download-btn, #contents .content-inner.card-page #make-card #info-card .method-btn li a#download-btn {
           opacity: 0.6; }
-        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a:hover {
+        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a#cancel-btn, #contents .content-inner.card-page #make-card #info-card .method-btn li a#cancel-btn {
+          opacity: 0.4; }
+        #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a:hover, #contents .content-inner.card-page #make-card #info-card .method-btn li a:hover {
           opacity: 0.9 !important; }
+  #contents .content-inner.card-page #list-card {
+    overflow: hidden;
+    zoom: 1; }
+    #contents .content-inner.card-page #list-card li {
+      width: 30%;
+      float: left;
+      margin: 2% 0;
+      position: relative;
+      overflow: hidden; }
+      #contents .content-inner.card-page #list-card li img {
+        max-width: 100%;
+        -webkit-transition: margin-left 0.4s;
+        -o-transition: margin-left 0.4s;
+        transition: margin-left 0.4s; }
+      #contents .content-inner.card-page #list-card li:nth-child(3n-1) {
+        margin-left: 5%;
+        margin-right: 5%; }
+      #contents .content-inner.card-page #list-card li:hover .info-point {
+        margin-left: 0; }
+      #contents .content-inner.card-page #list-card li:hover img {
+        margin-left: 30%; }
+      #contents .content-inner.card-page #list-card li .info-point {
+        font-size: 111%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 30%;
+        margin-left: -30%;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #454545;
+        font-weight: bold;
+        -webkit-transition: margin-left 0.4s;
+        -o-transition: margin-left 0.4s;
+        transition: margin-left 0.4s; }
+        #contents .content-inner.card-page #list-card li .info-point a {
+          display: block;
+          margin: 20px 30%;
+          text-align: center;
+          text-decoration: none;
+          color: #454545; }
+          #contents .content-inner.card-page #list-card li .info-point a:before {
+            content: "";
+            height: 20px;
+            width: 100%;
+            display: inline-block;
+            -webkit-transition: -webkit-transform 0.4s;
+            -o-transition: -o-transform 0.4s;
+            transition: transform 0.4s;
+            /* vertical-align: middle */ }
+          #contents .content-inner.card-page #list-card li .info-point a:hover:before {
+            -webkit-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            transform: scale(1.5); }
+          #contents .content-inner.card-page #list-card li .info-point a.org-point:before {
+            background: url(../img/point-ico.png) no-repeat center;
+            background-size: contain; }
+          #contents .content-inner.card-page #list-card li .info-point a.like-point:before {
+            background: url(../img/like-ico.png) no-repeat center;
+            background-size: contain; }
+          #contents .content-inner.card-page #list-card li .info-point a.comment-point:before {
+            background: url(../img/comment-ico.png) no-repeat center;
+            background-size: contain; }
 
 a {
   color: #0795cc;
