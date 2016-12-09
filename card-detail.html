@@ -7,6 +7,17 @@
     <link rel="stylesheet" type="text/css" href="common/css/main.css" media="all">
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      
+    </script>
     <div id="wrapper">
       <div id="header">
         <div class="content-inner">
@@ -19,7 +30,9 @@
           <div id="make-card">
             <div id="detail-card"></div>
             <div id="info-card">
-              <div class="info-point"><a href="javascript:void(0)" class="org-point">300</a><a href="javascript:void(0)" class="like-point">200</a><a href="javascript:void(0)" class="comment-point">200</a></div>
+              <div class="info-point"><a href="javascript:void(0)" class="org-point">300</a><a href="javascript:void(0)" class="like-point">200</a><a href="javascript:void(0)" class="comment-point">200</a>
+                <div data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5" class="fb-comments"></div>
+              </div>
             </div>
           </div>
           <p class="next-function"><a id="btn-next" href="#">Hoàn thành</a></p>
