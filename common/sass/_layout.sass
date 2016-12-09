@@ -83,7 +83,7 @@ body
         max-width: 1100px
         padding: 0
         #make-card
-            overflow: auto
+            overflow: hidden
             zoom: 1
             #editor-card
                 width: 800px
@@ -100,6 +100,10 @@ body
                     left: 0
                     border: 3px #ffca1c solid
                     opacity: 0.5
+                    -webkit-box-sizing: border-box
+                    -moz-box-sizing: border-box
+                    box-sizing: border-box
+                    pointer-events: none
 
             #toolbar-card
                 width: 300px
