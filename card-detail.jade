@@ -7,14 +7,14 @@ html(lang="en")
     link(rel="stylesheet" type="text/css" href="common/css/main.css" media="all")
   body
     #fb-root
-    script.
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+    //- script.
+    //-   (function(d, s, id) {
+    //-   var js, fjs = d.getElementsByTagName(s)[0];
+    //-   if (d.getElementById(id)) return;
+    //-   js = d.createElement(s); js.id = id;
+    //-   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+    //-   fjs.parentNode.insertBefore(js, fjs);
+    //-   }(document, 'script', 'facebook-jssdk'));
 
     #wrapper
       #header
@@ -29,15 +29,30 @@ html(lang="en")
 
             #info-card
                 div.info-point
+                    p Điểm từ ban tổ chức
                     a(href="javascript:void(0)").org-point 300
+                    p Lượt thích trên facebook
                     a(href="javascript:void(0)").like-point 200
+                    p Bình luận trên facebook
                     a(href="javascript:void(0)").comment-point 200
-                    .fb-comments(data-href='https://developers.facebook.com/docs/plugins/comments#configurator', data-numposts='5')
+                    //- .fb-comments(data-href='https://developers.facebook.com/docs/plugins/comments#configurator', data-numposts='5')
+                    
+
 
           p.next-function
             a#btn-next(href="#") Hoàn thành
       #footer
         .content-inner
+          #fb-root
+            script.
+              (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=1018213634855656";
+              fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+            .fb-comments(data-href='https://developers.facebook.com/docs/plugins/comments#configurator', data-numposts='')
     script(type='text/javascript' src="common/js/jquery-2.2.1.min.js")
     script(type='text/javascript' src="common/js/jquery.jquery-ui.js")
     script(type='text/javascript' src="common/js/common.js")

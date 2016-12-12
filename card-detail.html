@@ -8,16 +8,6 @@
   </head>
   <body>
     <div id="fb-root"></div>
-    <script>
-      (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-      
-    </script>
     <div id="wrapper">
       <div id="header">
         <div class="content-inner">
@@ -30,8 +20,12 @@
           <div id="make-card">
             <div id="detail-card"></div>
             <div id="info-card">
-              <div class="info-point"><a href="javascript:void(0)" class="org-point">300</a><a href="javascript:void(0)" class="like-point">200</a><a href="javascript:void(0)" class="comment-point">200</a>
-                <div data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5" class="fb-comments"></div>
+              <div class="info-point">
+                <p>Điểm từ ban tổ chức</p><a href="javascript:void(0)" class="org-point">300</a>
+                <p>Lượt thích trên facebook</p><a href="javascript:void(0)" class="like-point">200</a>
+                <p>Bình luận trên facebook</p><a href="javascript:void(0)" class="comment-point">200</a>
+                
+                
               </div>
             </div>
           </div>
@@ -39,7 +33,20 @@
         </div>
       </div>
       <div id="footer">
-        <div class="content-inner"></div>
+        <div class="content-inner">
+          <div id="fb-root">
+            <script>
+              (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=1018213634855656";
+              fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="" class="fb-comments"></div>
+          </div>
+        </div>
       </div>
     </div>
     <script type="text/javascript" src="common/js/jquery-2.2.1.min.js"></script>

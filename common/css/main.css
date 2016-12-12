@@ -143,22 +143,45 @@ body {
           opacity: 0.4; }
         #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a:hover, #contents .content-inner.card-page #make-card #info-card .method-btn li a:hover {
           opacity: 0.9 !important; }
-    #contents .content-inner.card-page #make-card #info-card .info-point a {
-      display: block; }
-      #contents .content-inner.card-page #make-card #info-card .info-point a:before {
-        content: "";
-        height: 40px;
-        width: 40px;
-        display: inline-block; }
-      #contents .content-inner.card-page #make-card #info-card .info-point a.org-point:before {
-        background: url(../img/point-ico.png) no-repeat center;
-        background-size: contain; }
-      #contents .content-inner.card-page #make-card #info-card .info-point a.like-point:before {
-        background: url(../img/like-ico.png) no-repeat center;
-        background-size: contain; }
-      #contents .content-inner.card-page #make-card #info-card .info-point a.comment-point:before {
-        background: url(../img/comment-ico.png) no-repeat center;
-        background-size: contain; }
+    #contents .content-inner.card-page #make-card #info-card {
+      padding-top: 20px; }
+      #contents .content-inner.card-page #make-card #info-card .info-point {
+        padding-top: 20px; }
+        #contents .content-inner.card-page #make-card #info-card .info-point > a {
+          display: block;
+          margin: 0 40px;
+          color: #454545; }
+          #contents .content-inner.card-page #make-card #info-card .info-point > a:before {
+            content: "";
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 20px;
+            -webkit-transition: -webkit-transform 0.2s;
+            -o-transition: -o-transform 0.2s;
+            transition: transform 0.2s; }
+          #contents .content-inner.card-page #make-card #info-card .info-point > a:hover:before {
+            -webkit-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            transform: scale(1.5); }
+          #contents .content-inner.card-page #make-card #info-card .info-point > a.org-point:before {
+            background: url(../img/point-ico.png) no-repeat center;
+            background-size: contain; }
+          #contents .content-inner.card-page #make-card #info-card .info-point > a.like-point:before {
+            background: url(../img/like-ico.png) no-repeat center;
+            background-size: contain; }
+          #contents .content-inner.card-page #make-card #info-card .info-point > a.comment-point:before {
+            background: url(../img/comment-ico.png) no-repeat center;
+            background-size: contain; }
+        #contents .content-inner.card-page #make-card #info-card .info-point > p {
+          margin: 0 20px;
+          font-size: 80%;
+          color: #454545; }
+          #contents .content-inner.card-page #make-card #info-card .info-point > p + a {
+            margin-bottom: 20px;
+            margin-top: 5px; }
   #contents .content-inner.card-page #list-card {
     overflow: hidden;
     zoom: 1; }
@@ -175,9 +198,9 @@ body {
         overflow: hidden; }
         #contents .content-inner.card-page #list-card li .card-wrapper img {
           max-width: 100%;
-          -webkit-transition: margin-left 0.4s;
-          -o-transition: margin-left 0.4s;
-          transition: margin-left 0.4s; }
+          -webkit-transition: margin-left 0.2s;
+          -o-transition: margin-left 0.2s;
+          transition: margin-left 0.2s; }
       #contents .content-inner.card-page #list-card li:hover .info-point {
         margin-left: 0; }
       #contents .content-inner.card-page #list-card li:hover img {
@@ -208,8 +231,7 @@ body {
             display: inline-block;
             -webkit-transition: -webkit-transform 0.4s;
             -o-transition: -o-transform 0.4s;
-            transition: transform 0.4s;
-            /* vertical-align: middle */ }
+            transition: transform 0.4s; }
           #contents .content-inner.card-page #list-card li .info-point a:hover:before {
             -webkit-transform: scale(1.5);
             -ms-transform: scale(1.5);
@@ -761,6 +783,21 @@ ul.tab li a:focus, .active {
       height: 200px; }
     .tabcontent#text-part textarea + label {
       margin-top: 20px; }
+  .tabcontent#object-part > a.group-name {
+    display: block;
+    text-align: center;
+    font-size: 80%;
+    color: #454545; }
+    .tabcontent#object-part > a.group-name + ul {
+      overflow: hidden;
+      zoom: 1; }
+      .tabcontent#object-part > a.group-name + ul li {
+        width: 25%;
+        height: 100px;
+        float: left;
+        padding: 4%; }
+        .tabcontent#object-part > a.group-name + ul li img {
+          border: none; }
 
 .tabcontent {
   -webkit-animation: fadeEffect 0.5s;

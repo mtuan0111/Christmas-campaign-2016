@@ -34,18 +34,18 @@
               </div>
               <div id="background-part" class="tabcontent">
                 <ul>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-02.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-03.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
-                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-02.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-03.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
+                  <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
                 </ul>
               </div>
-              <div id="object-part" class="tabcontent">
-                <ul>
-                  <li title="Test title"><img src="common/img/tmp-00-ob01.png"></li>
+              <div id="object-part" class="tabcontent"><a href="javascript:void(0)" class="group-name">Santa</a>
+                <ul data-group-name="Santa">
+                  <li><img src="common/img/tmp-00-ob01.png"></li>
                   <li title="Test title"><img src="common/img/tmp-00-ob02.png"></li>
                   <li title="Test title"><img src="common/img/tmp-00-ob03.png"></li>
                   <li title="Test title"><img src="common/img/tmp-00-ob04.png"></li>
@@ -56,7 +56,9 @@
                   <li title="Test title"><img src="common/img/tmp-00-ob09.png"></li>
                   <li title="Test title"><img src="common/img/tmp-00-ob10.png"></li>
                   <li title="Test title"><img src="common/img/tmp-00-ob11.png"></li>
-                  <li title="Test title"><img src="common/img/tmp-01-ob1.png"></li>
+                </ul><a href="javascript:void(0)" class="group-name">Santa</a>
+                <ul data-group-name="Noel Tree">
+                  <li><img src="common/img/tmp-01-ob1.png"></li>
                   <li title="Test title"><img src="common/img/tmp-01-ob2.png"></li>
                   <li title="Test title"><img src="common/img/tmp-01-ob3.png"></li>
                   <li title="Test title"><img src="common/img/tmp-01-ob4.png"></li>
@@ -98,6 +100,13 @@
         document.getElementById(cityName).style.display = "block";
         evt.currentTarget.className += " active";
       }
+      
+      //- (function($) {
+        alert(123);
+        $(document).on("click","a.group-name",function(){
+          $(this).next("ul[data-group-name]").stop(true,false).slideToggle();
+        })
+      //- })
     </script>
   </body>
 </html>

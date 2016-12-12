@@ -91,6 +91,27 @@ ul.tab li a:focus, .active
 
             & + label
                 margin-top: 20px
+    &#object-part
+        >a.group-name
+            // content: attr(data-group-name)
+            display: block
+            text-align: center
+            font-size: 80%
+            color: #454545
+            // border: solid #454545 1px
+            & + ul
+                overflow: hidden
+                zoom: 1
+                // &[data-group-name]
+                
+                li
+                    width: 25%
+                    height: 100px
+                    float: left
+                    padding: 4%
+
+                    img
+                        border: none
 
 .tabcontent
     -webkit-animation: fadeEffect 0.5s

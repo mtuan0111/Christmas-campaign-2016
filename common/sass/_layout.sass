@@ -164,14 +164,33 @@ body
                             &:hover
                                 opacity: 0.9 !important
             #info-card
+                padding-top: 20px
                 .info-point
-                    a
+                    padding-top: 20px
+                    >a
                         display: block
+                        margin: 0 40px
+                        color: #454545
                         &:before
                             content: ""
-                            height: 40px
-                            width: 40px
+                            height: 30px
+                            width: 30px
                             display: inline-block
+                            vertical-align: middle
+                            margin-right: 20px
+
+                            -webkit-transition: -webkit-transform 0.2s
+                            -o-transition: -o-transform 0.2s
+                            transition: transform 0.2s
+                        &:hover
+
+                            &:before
+                                -webkit-transform: scale(1.5)
+                                -ms-transform: scale(1.5)
+                                -o-transform:  scale(1.5)
+                                transform: scale(1.5)
+
+
                         &.org-point
                             &:before
                                 background: url(../img/point-ico.png) no-repeat center
@@ -184,6 +203,13 @@ body
                             &:before
                                 background: url(../img/comment-ico.png) no-repeat center
                                 background-size: contain
+                    >p
+                        margin: 0 20px
+                        font-size: 80%
+                        color: #454545
+                        & + a
+                            margin-bottom: 20px
+                            margin-top: 5px
 
         #list-card
             overflow: hidden
@@ -201,9 +227,9 @@ body
                     overflow: hidden
                     img
                         max-width: 100%
-                        -webkit-transition: margin-left 0.4s
-                        -o-transition: margin-left 0.4s
-                        transition: margin-left 0.4s
+                        -webkit-transition: margin-left 0.2s
+                        -o-transition: margin-left 0.2s
+                        transition: margin-left 0.2s
 
 
                 &:hover
@@ -239,7 +265,6 @@ body
                             -webkit-transition: -webkit-transform 0.4s
                             -o-transition: -o-transform 0.4s
                             transition: transform 0.4s
-                            /* vertical-align: middle */
                         &:hover
 
                             &:before

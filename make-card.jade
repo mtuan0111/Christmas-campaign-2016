@@ -37,22 +37,23 @@ html(lang="en")
               #background-part.tabcontent
                 ul
                   li(title="Test title")
-                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400")
+                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400")
                   li(title="Test title")
-                    img(src="common/img/bg-02.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400")
+                    img(src="common/img/bg-02.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400")
                   li(title="Test title")
-                    img(src="common/img/bg-03.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400")
+                    img(src="common/img/bg-03.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400")
                   li(title="Test title")
-                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400")
+                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400")
                   li(title="Test title")
-                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400")
+                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400")
                   li(title="Test title")
-                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400")
+                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400")
                   li(title="Test title")
-                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="100" data-message-width="400")
+                    img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400")
               #object-part.tabcontent
-                ul
-                  li(title="Test title")
+                a.group-name(href="javascript:void(0)") Santa
+                ul(data-group-name="Santa")
+                  li
                     img(src="common/img/tmp-00-ob01.png")
                   li(title="Test title")
                     img(src="common/img/tmp-00-ob02.png")
@@ -75,7 +76,9 @@ html(lang="en")
                   li(title="Test title")
                     img(src="common/img/tmp-00-ob11.png")
 
-                  li(title="Test title")
+                a.group-name(href="javascript:void(0)") Santa
+                ul(data-group-name="Noel Tree")
+                  li
                     img(src="common/img/tmp-01-ob1.png")
                   li(title="Test title")
                     img(src="common/img/tmp-01-ob2.png")
@@ -118,3 +121,10 @@ html(lang="en")
         document.getElementById(cityName).style.display = "block";
         evt.currentTarget.className += " active";
       }
+
+      //- (function($) {
+        alert(123);
+        $(document).on("click","a.group-name",function(){
+          $(this).next("ul[data-group-name]").stop(true,false).slideToggle();
+        })
+      //- })
