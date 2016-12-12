@@ -14,6 +14,9 @@
           <div id="campaign-name"><img id="campaign-title" src="common/img/campaign-title.png"></div>
         </div>
       </div>
+      <div id="main-menu"><a href="javascript:void(0)" class="menu-btn">···</a>
+        <nav><a href="javascript:void(0)">Đăng nhập</a><a href="javascript:void(0)">Thể lệ</a><a href="javascript:void(0)">Làm thiệp</a><a href="javascript:void(0)">Bài dự thi</a></nav>
+      </div>
       <div id="contents">
         <div class="content-inner card-page">
           <div id="make-card">
@@ -22,11 +25,12 @@
             </div>
             <div id="toolbar-card">
               <ul class="tab">
-                <li title="Test title"><a href="javascript:void(0)" onclick="openTab(event, 'text-part')" class="tablinks"><img src="common/img/text-ico.png"></a></li>
+                <li title="Test title"><a href="javascript:void(0)" onclick="openTab(event, 'text-part')" class="tablinks active"><img src="common/img/text-ico.png"></a></li>
                 <li title="Test title"><a href="javascript:void(0)" onclick="openTab(event, 'background-part')" class="tablinks"><img src="common/img/background-ico.png"></a></li>
                 <li title="Test title"><a href="javascript:void(0)" onclick="openTab(event, 'object-part')" class="tablinks"><img src="common/img/object-ico.png"></a></li>
+                <li title="Test title"><a href="javascript:void(0)" onclick="openTab(event, 'submit-part')" class="tablinks"><img src="common/img/send-ico.png"></a></li>
               </ul>
-              <div id="text-part" class="tabcontent">
+              <div id="text-part" style="display: block" class="tabcontent">
                 <label for="card-title">Tiêu đề thiệp</label>
                 <textarea id="card-title" placeholder="Nhập tiêu đề thiệp"></textarea>
                 <label for="card-content">Nội dung thiệp</label>
@@ -67,6 +71,13 @@
                   <li title="Test title"><img src="common/img/tmp-02-ob1.png"></li>
                 </ul>
               </div>
+              <div id="submit-part" class="tabcontent">
+                <ul class="method-btn">
+                  <li title="Test title"><a id="submit-btn" href="javascript:void(0)">Dự thi</a></li>
+                  <li title="Test title"><a id="download-btn" href="javascript:void(0)">Tải thiệp</a></li>
+                  <li title="Test title"><a id="cancel-btn" href="javascript:void(0)">Hủy</a></li>
+                </ul>
+              </div>
             </div>
           </div>
           <p class="next-function"><a id="btn-next" href="#">Hoàn thành</a></p>
@@ -79,6 +90,7 @@
     <script type="text/javascript" src="common/js/jquery-2.2.1.min.js"></script>
     <script type="text/javascript" src="common/js/jquery.jquery-ui.js"></script>
     <script type="text/javascript" src="common/js/canvas.js"></script>
+    <script type="text/javascript" src="common/js/init.js"></script>
     <script type="text/javascript">
       function openTab(evt, cityName) {
         // Declare all variables
@@ -102,10 +114,7 @@
       }
       
       //- (function($) {
-        alert(123);
-        $(document).on("click","a.group-name",function(){
-          $(this).next("ul[data-group-name]").stop(true,false).slideToggle();
-        })
+      
       //- })
     </script>
   </body>

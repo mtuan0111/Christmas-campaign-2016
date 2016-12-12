@@ -42,6 +42,41 @@ body
             display: inline-block
             max-width: 100%
 
+#main-menu
+    position: fixed
+    a.menu-btn
+        text-decoration: none
+        &:hover
+            text-decoration: none
+    nav
+        // background: #ffca1c
+        // position: absolute
+        // right: 95%
+        display: none
+        a
+            display: block
+            color: #454545
+            font-size: 80%
+            padding: 10px 20px
+            background: #ffca1c
+            font-weight: bold
+            opacity: 0.8
+            -webkit-transition: margin 0.1s
+            -o-transition: margin 0.1s
+            transition: margin 0.1s
+            &:hover
+                text-decoration: none
+                opacity: 1
+                margin-left: 2px
+                margin-right: -2px
+// background: rgba(255,255,255,1)
+// background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0) 97%, rgba(255,255,255,0) 100%)
+// background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(21%, rgba(255,255,255,1)), color-stop(50%, rgba(255,255,255,0.9)), color-stop(97%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)))
+// background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0) 97%, rgba(255,255,255,0) 100%)
+// background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0) 97%, rgba(255,255,255,0) 100%)
+// background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0) 97%, rgba(255,255,255,0) 100%)
+// background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0) 97%, rgba(255,255,255,0) 100%)
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 )
 #contents
     p#introduction
         font-style: italic

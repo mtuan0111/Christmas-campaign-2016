@@ -12,6 +12,8 @@ html(lang="en")
           #logo
           #campaign-name
             img#campaign-title(src="common/img/campaign-title.png")
+
+      include main-menu
       #contents
         .content-inner.card-page
           #make-card
@@ -20,7 +22,7 @@ html(lang="en")
             #toolbar-card
               ul.tab
                 li(title="Test title")
-                  a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
+                  a.tablinks.active(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
                     img(src='common/img/text-ico.png')
                 li(title="Test title")
                   a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'background-part')")
@@ -28,7 +30,10 @@ html(lang="en")
                 li(title="Test title")
                   a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'object-part')")
                     img(src='common/img/object-ico.png')
-              #text-part.tabcontent
+                li(title="Test title")
+                  a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'submit-part')")
+                    img(src='common/img/send-ico.png')
+              #text-part.tabcontent(style="display: block")
                 label(for="card-title") Tiêu đề thiệp
                 textarea#card-title(placeholder="Nhập tiêu đề thiệp")
 
@@ -92,6 +97,14 @@ html(lang="en")
                     img(src="common/img/tmp-01-ob6.png")
                   li(title="Test title")
                     img(src="common/img/tmp-02-ob1.png")
+              #submit-part.tabcontent
+                ul.method-btn
+                  li(title="Test title")
+                    a#submit-btn(href='javascript:void(0)') Dự thi
+                  li(title="Test title")
+                    a#download-btn(href='javascript:void(0)') Tải thiệp
+                  li(title="Test title")
+                    a#cancel-btn(href='javascript:void(0)') Hủy
 
           p.next-function
             a#btn-next(href="#") Hoàn thành
@@ -100,6 +113,7 @@ html(lang="en")
     script(type='text/javascript' src="common/js/jquery-2.2.1.min.js")
     script(type='text/javascript' src="common/js/jquery.jquery-ui.js")
     script(type='text/javascript' src="common/js/canvas.js")
+    script(type='text/javascript' src="common/js/init.js")
     script(type='text/javascript').
       function openTab(evt, cityName) {
         // Declare all variables
@@ -123,8 +137,5 @@ html(lang="en")
       }
 
       //- (function($) {
-        alert(123);
-        $(document).on("click","a.group-name",function(){
-          $(this).next("ul[data-group-name]").stop(true,false).slideToggle();
-        })
+
       //- })

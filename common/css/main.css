@@ -41,6 +41,31 @@ body {
     display: inline-block;
     max-width: 100%; }
 
+#main-menu {
+  position: fixed; }
+  #main-menu a.menu-btn {
+    text-decoration: none; }
+    #main-menu a.menu-btn:hover {
+      text-decoration: none; }
+  #main-menu nav {
+    display: none; }
+    #main-menu nav a {
+      display: block;
+      color: #454545;
+      font-size: 80%;
+      padding: 10px 20px;
+      background: #ffca1c;
+      font-weight: bold;
+      opacity: 0.8;
+      -webkit-transition: margin 0.1s;
+      -o-transition: margin 0.1s;
+      transition: margin 0.1s; }
+      #main-menu nav a:hover {
+        text-decoration: none;
+        opacity: 1;
+        margin-left: 2px;
+        margin-right: -2px; }
+
 #contents p#introduction {
   font-style: italic; }
 #contents dl#intro-content {
