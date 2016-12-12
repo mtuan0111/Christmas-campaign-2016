@@ -56,6 +56,8 @@ html(lang="en")
                   li(title="Test title")
                     img(src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400")
               #object-part.tabcontent
+                #object-size
+                  input(type="range" name="object-size" value="100")
                 a.group-name(href="javascript:void(0)") Santa
                 ul(data-group-name="Santa")
                   li
@@ -102,7 +104,7 @@ html(lang="en")
                   li(title="Test title")
                     a#submit-btn(href='javascript:void(0)') Dự thi
                   li(title="Test title")
-                    a#download-btn(href='javascript:void(0)') Tải thiệp
+                    a#download(href='javascript:void(0)') Tải thiệp
                   li(title="Test title")
                     a#cancel-btn(href='javascript:void(0)') Hủy
 
@@ -114,6 +116,7 @@ html(lang="en")
     script(type='text/javascript' src="common/js/jquery.jquery-ui.js")
     script(type='text/javascript' src="common/js/canvas.js")
     script(type='text/javascript' src="common/js/init.js")
+      script(type='text/javascript' src="common/js/FileSaver.min.js.js")
     script(type='text/javascript').
       function openTab(evt, cityName) {
         // Declare all variables

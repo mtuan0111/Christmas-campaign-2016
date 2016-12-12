@@ -137,6 +137,8 @@ body {
         pointer-events: none; }
     #contents .content-inner.card-page #make-card #submit-card + #toolbar-card {
       background: transparent; }
+    #contents .content-inner.card-page #make-card #toolbar-card {
+      position: relative; }
     #contents .content-inner.card-page #make-card #toolbar-card, #contents .content-inner.card-page #make-card #info-card {
       width: 300px;
       height: 600px;
@@ -730,7 +732,8 @@ ul.tab {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 65px; }
 
 /* Float the list items side by side */
 ul.tab li {
@@ -808,21 +811,34 @@ ul.tab li a:focus, .active {
       height: 200px; }
     .tabcontent#text-part textarea + label {
       margin-top: 20px; }
-  .tabcontent#object-part > a.group-name {
-    display: block;
-    text-align: center;
-    font-size: 80%;
-    color: #454545; }
-    .tabcontent#object-part > a.group-name + ul {
-      overflow: hidden;
-      zoom: 1; }
-      .tabcontent#object-part > a.group-name + ul li {
-        width: 25%;
-        height: 100px;
-        float: left;
-        padding: 4%; }
-        .tabcontent#object-part > a.group-name + ul li img {
-          border: none; }
+  .tabcontent#object-part {
+    padding-top: 80px; }
+    .tabcontent#object-part #object-size {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 67px;
+      background-color: #fff; }
+      .tabcontent#object-part #object-size input[type="range"] {
+        margin: 0 10%;
+        width: 80%;
+        height: 60px; }
+    .tabcontent#object-part > a.group-name {
+      display: block;
+      text-align: center;
+      font-size: 80%;
+      color: #454545; }
+      .tabcontent#object-part > a.group-name + ul {
+        overflow: hidden;
+        zoom: 1; }
+        .tabcontent#object-part > a.group-name + ul li {
+          width: 25%;
+          height: 100px;
+          float: left;
+          padding: 4%; }
+          .tabcontent#object-part > a.group-name + ul li img {
+            border: none; }
 
 .tabcontent {
   -webkit-animation: fadeEffect 0.5s;

@@ -47,7 +47,10 @@
                   <li title="Test title"><img src="common/img/bg-01.png" data-title-x="100" data-title-y="100" data-title-width="400" data-message-x="100" data-message-y="400" data-message-width="400"></li>
                 </ul>
               </div>
-              <div id="object-part" class="tabcontent"><a href="javascript:void(0)" class="group-name">Santa</a>
+              <div id="object-part" class="tabcontent">
+                <div id="object-size">
+                  <input type="range" name="object-size" value="100">
+                </div><a href="javascript:void(0)" class="group-name">Santa</a>
                 <ul data-group-name="Santa">
                   <li><img src="common/img/tmp-00-ob01.png"></li>
                   <li title="Test title"><img src="common/img/tmp-00-ob02.png"></li>
@@ -74,7 +77,7 @@
               <div id="submit-part" class="tabcontent">
                 <ul class="method-btn">
                   <li title="Test title"><a id="submit-btn" href="javascript:void(0)">Dự thi</a></li>
-                  <li title="Test title"><a id="download-btn" href="javascript:void(0)">Tải thiệp</a></li>
+                  <li title="Test title"><a id="download" href="javascript:void(0)">Tải thiệp</a></li>
                   <li title="Test title"><a id="cancel-btn" href="javascript:void(0)">Hủy</a></li>
                 </ul>
               </div>
@@ -90,7 +93,9 @@
     <script type="text/javascript" src="common/js/jquery-2.2.1.min.js"></script>
     <script type="text/javascript" src="common/js/jquery.jquery-ui.js"></script>
     <script type="text/javascript" src="common/js/canvas.js"></script>
-    <script type="text/javascript" src="common/js/init.js"></script>
+    <script type="text/javascript" src="common/js/init.js">
+      <script type="text/javascript" src="common/js/FileSaver.min.js.js"></script>
+    </script>
     <script type="text/javascript">
       function openTab(evt, cityName) {
         // Declare all variables
