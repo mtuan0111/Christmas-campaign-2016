@@ -41,11 +41,20 @@ function Item(src, x, y, w, h) {
     this.y = y || 0;
     this.w = w || 80;
     this.h = h || 80;
+    this.naturalW = w || 80;
+    this.naturalH = h || 80;
 }
 
 Item.prototype = {
     drag: false,
+    ratio: 100,
     flip: false,
+    isResize: false,
+
+    _setSize: function() {
+        this.w = this.naturalW * (this.ratio/100);
+        this.h = this.naturalH * (this.ratio/100);
+    },
 
     _draw: function(context) {
         let image = new Image();
@@ -189,10 +198,10 @@ Card.prototype = {
 
     // Vars
     let canvas, context,
-        backgroundEle, itemEle, titleEle, wishEle,
+        backgroundEle, itemEle, titleEle, wishEle, downloadBtn,
         titleX = 100, titleY = 100, titleWidth = 500,
         messageX = 100, messageY = 400, messageWidth = 500,
-        card,
+        card, lastTouch,
         items = [];
 
 
@@ -202,6 +211,8 @@ Card.prototype = {
     itemEle = document.querySelectorAll('#object-part li');
     titleEle = document.getElementById('card-title');
     wishEle = document.getElementById('card-content');
+    downloadBtn = document.getElementById('download');
+    reSize = document.getElementById('object-range');
 
     canvas = document.getElementById('canvas');
     canvas.width = canvasWidth;
@@ -233,7 +244,9 @@ Card.prototype = {
             x = Math.floor((Math.random() * (max - min +1)) + min),
             y = Math.floor((Math.random() * (max - min +1)) + min);
 
+        reSize.value = 100;
         card._setItems(src, x, y, w, h);
+        lastTouch = card._getItems().length - 1;
     }
 
     function _debounce(fnc, wait, immediate) {
@@ -274,6 +287,13 @@ Card.prototype = {
         card._setWish(value, x, y, w);
     }
 
+    function changeSize() {
+        let items = card._getItems();
+        items[lastTouch].ratio = parseInt(reSize.value);
+        console.log(lastTouch, items[lastTouch].ratio);
+        items[lastTouch]._setSize();
+    }
+
     const mouseMove = (e) => {
         let canvasView = canvas.getBoundingClientRect();
         Mouse.x = e.clientX - canvasView.left;
@@ -311,6 +331,20 @@ Card.prototype = {
             wish = card._getWish();
         let array = items.concat(title, wish);
 
+        for(let i = items.length - 1; i >= 0; i--) {
+            let item = items[i];
+            if(
+                Mouse.x > item.x &&
+                Mouse.x < item.x + item.w &&
+                Mouse.y > item.y &&
+                Mouse.y < item.y + item.h
+            ) {
+                lastTouch = i;
+                reSize.value = items[i].ratio;
+                break;
+            }
+        }
+
         for(let i = array.length - 1; i >= 0; i--) {
             let item = array[i];
             if(
@@ -334,6 +368,10 @@ Card.prototype = {
             wish = card._getWish();
         let array = items.concat(title, wish);
 
+        for(let i = items.length - 1; i >= 0; i--) {
+            items[i].isResize = (i == lastTouch) ? true : false;
+        }
+
         for(let i = array.length - 1; i >= 0; i--) {
             let item = array[i];
             item.drag = false;
@@ -342,6 +380,7 @@ Card.prototype = {
 
     const doubleClick = (e) => {
         let array = card._getItems();
+        // lastTouch = null;
         for(let i = array.length - 1; i >= 0; i--) {
             let item = array[i];
             if(
@@ -392,6 +431,13 @@ Card.prototype = {
     canvas.addEventListener('mouseup', mouseUp, false);
     canvas.addEventListener('dblclick', doubleClick, false);
     canvas.addEventListener('contextmenu', contextmenu, false);
+    reSize.addEventListener('change', changeSize, false);
+    downloadBtn.addEventListener('click', function() {
+        canvas.toBlob(function(blob) {
+            saveAs(blob, 'christmas-card.png')
+        }, 'image/png');
+    }, false);
+
 
     // Update loop
     function update() {
