@@ -52,7 +52,24 @@ body
         // background: #ffca1c
         // position: absolute
         // right: 95%
+        text-align: center
         display: none
+        p
+            // display:block
+            color: #ffca1c
+            // text-align: left
+            font-size: 80%
+            span
+                display: block
+                color: #ffca1c
+                // font-size: 80%
+                margin-top: 10px
+                padding: 10px 20px
+                border: solid 1px #ffca1c
+                font-style: italic
+                border-bottom: none
+
+
         a
             display: block
             color: #454545
@@ -201,6 +218,9 @@ body
                                 opacity: 0.9 !important
             #info-card
                 padding-top: 20px
+                -webkit-box-sizing: border-box
+                -moz-box-sizing: border-box
+                box-sizing: border-box
                 .info-point
                     padding-top: 20px
                     >a
@@ -330,3 +350,12 @@ body
                         text-decoration: underline
                         text-decoration-color: #ffca1c
                         -moz-text-decoration-color: #ffca1c
+#card-detail
+    #wrapper
+        .content-inner
+            max-width: 1000px !important
+            #info-card
+                width: 200px !important
+#footer
+    .content-inner#fb-content
+        background-color: rgba(255,255,255,0.8)

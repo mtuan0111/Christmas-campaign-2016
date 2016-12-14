@@ -5,7 +5,7 @@ html(lang="en")
     meta(http-equiv="Content-Style-Type" content="text/css")
     title Christmas Campagin
     link(rel="stylesheet" type="text/css" href="common/css/main.css" media="all")
-  body
+  body#card-detail
     #fb-root
     //- script.
     //-   (function(d, s, id) {
@@ -32,9 +32,9 @@ html(lang="en")
                 div.info-point
                     p Điểm từ ban tổ chức
                     a(href="javascript:void(0)").org-point 300
-                    p Lượt thích trên facebook
+                    p Lượt thích
                     a(href="javascript:void(0)").like-point 200
-                    p Bình luận trên facebook
+                    p Bình luận
                     a(href="javascript:void(0)").comment-point 200
                     //- .fb-comments(data-href='https://developers.facebook.com/docs/plugins/comments#configurator', data-numposts='5')
 
@@ -43,7 +43,7 @@ html(lang="en")
           p.next-function
             a#btn-next(href="#") Hoàn thành
       #footer
-        .content-inner
+        .content-inner#fb-content
           #fb-root
             script.
               (function(d, s, id) {
@@ -59,3 +59,13 @@ html(lang="en")
     script(type='text/javascript' src="common/js/common.js")
     script(type='text/javascript' src="common/js/init.js")
     script(type='text/javascript').
+        (function($) {
+            //- $(document).load(function(){
+            //-     //- console.log($("iframe[title]"));
+            //- })
+            //- $("iframe[title='Facebook Social Plugin']").load(function(){
+            //-     alert(123);
+            //- })\
+            alert("Hello");
+            setInterval(function(){ alert("Hello"); }, 3000);
+        })(jQuery);

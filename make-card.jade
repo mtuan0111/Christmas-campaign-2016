@@ -34,6 +34,19 @@ html(lang="en")
                   a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'submit-part')")
                     img(src='common/img/send-ico.png')
               #text-part.tabcontent(style="display: block")
+                #text-style
+                  label(for="font-size") Font size
+                  input#font-size(type="range" name="object-size" value="100")
+                  label(for="text-width") Text width
+                  input#text-width(type="range" name="object-size" value="100")
+                  label(for="font-family") Font Family
+                  select#font-family
+                    option font 1
+                    option font 2
+                    option font 3
+                    option font 4
+                    option font 5
+
                 label(for="card-title") Tiêu đề thiệp
                 textarea#card-title(placeholder="Nhập tiêu đề thiệp")
 

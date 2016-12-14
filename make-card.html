@@ -15,7 +15,9 @@
         </div>
       </div>
       <div id="main-menu"><a href="javascript:void(0)" class="menu-btn">···</a>
-        <nav><a href="javascript:void(0)">Đăng nhập</a><a href="javascript:void(0)">Thể lệ</a><a href="javascript:void(0)">Làm thiệp</a><a href="javascript:void(0)">Bài dự thi</a></nav>
+        <nav>
+          <p class="signedin">Tài khoản:<span>Nguyễn Ngọc Minh Tuấn</span></p><a href="javascript:void(0)">Đăng xuất</a><a href="javascript:void(0)">Thể lệ</a><a href="javascript:void(0)">Làm thiệp</a><a href="javascript:void(0)">Bài dự thi</a>
+        </nav>
       </div>
       <div id="contents">
         <div class="content-inner card-page">
@@ -31,6 +33,20 @@
                 <li title="Test title"><a href="javascript:void(0)" onclick="openTab(event, 'submit-part')" class="tablinks"><img src="common/img/send-ico.png"></a></li>
               </ul>
               <div id="text-part" style="display: block" class="tabcontent">
+                <div id="text-style">
+                  <label for="font-size">Font size</label>
+                  <input id="font-size" type="range" name="object-size" value="100">
+                  <label for="text-width">Text width</label>
+                  <input id="text-width" type="range" name="object-size" value="100">
+                  <label for="font-family">Font Family</label>
+                  <select id="font-family">
+                    <option>font 1</option>
+                    <option>font 2</option>
+                    <option>font 3</option>
+                    <option>font 4</option>
+                    <option>font 5</option>
+                  </select>
+                </div>
                 <label for="card-title">Tiêu đề thiệp</label>
                 <textarea id="card-title" placeholder="Nhập tiêu đề thiệp"></textarea>
                 <label for="card-content">Nội dung thiệp</label>

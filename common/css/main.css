@@ -48,7 +48,19 @@ body {
     #main-menu a.menu-btn:hover {
       text-decoration: none; }
   #main-menu nav {
+    text-align: center;
     display: none; }
+    #main-menu nav p {
+      color: #ffca1c;
+      font-size: 80%; }
+      #main-menu nav p span {
+        display: block;
+        color: #ffca1c;
+        margin-top: 10px;
+        padding: 10px 20px;
+        border: solid 1px #ffca1c;
+        font-style: italic;
+        border-bottom: none; }
     #main-menu nav a {
       display: block;
       color: #454545;
@@ -171,7 +183,10 @@ body {
         #contents .content-inner.card-page #make-card #toolbar-card .method-btn li a:hover, #contents .content-inner.card-page #make-card #info-card .method-btn li a:hover {
           opacity: 0.9 !important; }
     #contents .content-inner.card-page #make-card #info-card {
-      padding-top: 20px; }
+      padding-top: 20px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
       #contents .content-inner.card-page #make-card #info-card .info-point {
         padding-top: 20px; }
         #contents .content-inner.card-page #make-card #info-card .info-point > a {
@@ -282,6 +297,14 @@ body {
           text-decoration: underline;
           text-decoration-color: #ffca1c;
           -moz-text-decoration-color: #ffca1c; }
+
+#card-detail #wrapper .content-inner {
+  max-width: 1000px !important; }
+  #card-detail #wrapper .content-inner #info-card {
+    width: 200px !important; }
+
+#footer .content-inner#fb-content {
+  background-color: rgba(255, 255, 255, 0.8); }
 
 a {
   color: #0795cc;
@@ -790,6 +813,14 @@ ul.tab li a:focus, .active {
     .tabcontent ul li img {
       max-width: 100%;
       border: solid 1px rgba(0, 0, 0, 0.2); }
+  .tabcontent#text-part input[type="range"] {
+    width: 100%;
+    height: 30px;
+    margin: auto; }
+  .tabcontent#text-part select {
+    width: 100%;
+    height: 30px;
+    margin: 10px auto 20px; }
   .tabcontent#text-part textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -819,7 +850,8 @@ ul.tab li a:focus, .active {
       left: 0;
       right: 0;
       top: 67px;
-      background-color: #fff; }
+      background-color: #fff;
+      z-index: 1; }
       .tabcontent#object-part #object-size input[type="range"] {
         margin: 0 10%;
         width: 80%;
@@ -839,6 +871,20 @@ ul.tab li a:focus, .active {
           padding: 4%; }
           .tabcontent#object-part > a.group-name + ul li img {
             border: none; }
+    .tabcontent#object-part ul li {
+      position: relative; }
+      .tabcontent#object-part ul li:hover:after {
+        content: "+";
+        font-size: 300%;
+        font-weight: bold;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+        opacity: 0.2; }
 
 .tabcontent {
   -webkit-animation: fadeEffect 0.5s;

@@ -6,7 +6,7 @@
     <title>Christmas Campagin</title>
     <link rel="stylesheet" type="text/css" href="common/css/main.css" media="all">
   </head>
-  <body>
+  <body id="card-detail">
     <div id="fb-root"></div>
     <div id="wrapper">
       <div id="header">
@@ -16,7 +16,9 @@
         </div>
       </div>
       <div id="main-menu"><a href="javascript:void(0)" class="menu-btn">···</a>
-        <nav><a href="javascript:void(0)">Đăng nhập</a><a href="javascript:void(0)">Thể lệ</a><a href="javascript:void(0)">Làm thiệp</a><a href="javascript:void(0)">Bài dự thi</a></nav>
+        <nav>
+          <p class="signedin">Tài khoản:<span>Nguyễn Ngọc Minh Tuấn</span></p><a href="javascript:void(0)">Đăng xuất</a><a href="javascript:void(0)">Thể lệ</a><a href="javascript:void(0)">Làm thiệp</a><a href="javascript:void(0)">Bài dự thi</a>
+        </nav>
       </div>
       <div id="contents">
         <div class="content-inner card-page">
@@ -25,8 +27,8 @@
             <div id="info-card">
               <div class="info-point">
                 <p>Điểm từ ban tổ chức</p><a href="javascript:void(0)" class="org-point">300</a>
-                <p>Lượt thích trên facebook</p><a href="javascript:void(0)" class="like-point">200</a>
-                <p>Bình luận trên facebook</p><a href="javascript:void(0)" class="comment-point">200</a>
+                <p>Lượt thích</p><a href="javascript:void(0)" class="like-point">200</a>
+                <p>Bình luận</p><a href="javascript:void(0)" class="comment-point">200</a>
                 
                 
               </div>
@@ -36,7 +38,7 @@
         </div>
       </div>
       <div id="footer">
-        <div class="content-inner">
+        <div id="fb-content" class="content-inner">
           <div id="fb-root">
             <script>
               (function(d, s, id) {
@@ -56,6 +58,17 @@
     <script type="text/javascript" src="common/js/jquery.jquery-ui.js"></script>
     <script type="text/javascript" src="common/js/common.js"></script>
     <script type="text/javascript" src="common/js/init.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+      (function($) {
+          //- $(document).load(function(){
+          //-     //- console.log($("iframe[title]"));
+          //- })
+          //- $("iframe[title='Facebook Social Plugin']").load(function(){
+          //-     alert(123);
+          //- })\
+          alert("Hello");
+          setInterval(function(){ alert("Hello"); }, 3000);
+      })(jQuery);
+    </script>
   </body>
 </html>

@@ -4,6 +4,6 @@
     })
 
     $(document).on("click","a.menu-btn",function(){
-      $(this).next("nav").stop(true,false).slideToggle();
+      $(this).next("nav").stop(true,false).slideToggle(200);
     })
 })(jQuery);
