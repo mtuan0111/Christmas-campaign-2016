@@ -122,6 +122,8 @@ body {
   #contents form#login input[type="submit"] {
     border: none;
     display: none; }
+#contents form#login .error-message {
+  margin: 20px 0; }
 #contents .content-inner.card-page {
   max-width: 1100px;
   padding: 0; }
