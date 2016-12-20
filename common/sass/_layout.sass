@@ -44,6 +44,10 @@ body
 
 #main-menu
     position: fixed
+    left: 0
+    top: 0
+    bottom: 0
+    background-color: #ffca1c
     a.menu-btn
         text-decoration: none
         &:hover
@@ -53,7 +57,7 @@ body
         // position: absolute
         // right: 95%
         text-align: center
-        display: none
+        // display: none
         p
             // display:block
             color: #ffca1c
@@ -152,7 +156,12 @@ body
                 display: none
 
         .error-message
-            margin: 20px 0
+            display: none
+            margin: 20px 0 40px
+            color: orange
+            font-size: 90%
+            font-style: italic
+            font-weight: bold
 
     .content-inner.card-page
         max-width: 1100px
@@ -221,9 +230,11 @@ body
                                 opacity: 0.9 !important
             #info-card
                 padding-top: 20px
+                padding-right: 20px
                 -webkit-box-sizing: border-box
                 -moz-box-sizing: border-box
                 box-sizing: border-box
+                text-align: center
                 .info-point
                     padding-top: 20px
                     >a
@@ -242,12 +253,12 @@ body
                             -o-transition: -o-transform 0.2s
                             transition: transform 0.2s
                         &:hover
-
+                            text-decoration: none
                             &:before
-                                -webkit-transform: scale(1.5)
-                                -ms-transform: scale(1.5)
-                                -o-transform:  scale(1.5)
-                                transform: scale(1.5)
+                                -webkit-transform: scale(1.2)
+                                -ms-transform: scale(1.2)
+                                -o-transform:  scale(1.2)
+                                transform: scale(1.2)
 
 
                         &.org-point
@@ -302,6 +313,7 @@ body
                     position: absolute
                     top: 0
                     bottom: 0
+                    padding-top: 20px
                     width: 30%
                     margin-left: -30%
                     background-color: rgba(255,255,255,0.8)
@@ -310,9 +322,11 @@ body
                     -webkit-transition: margin-left 0.4s
                     -o-transition: margin-left 0.4s
                     transition: margin-left 0.4s
-                    a
+                    > * + *
+                        margin-top: 15px
+                    a.like-point, a.org-point
                         display: block
-                        margin: 20px 30%
+                        // margin: 20px 30%
                         text-align: center
                         text-decoration: none
                         color: #454545
@@ -327,10 +341,10 @@ body
                         &:hover
 
                             &:before
-                                -webkit-transform: scale(1.5)
-                                -ms-transform: scale(1.5)
-                                -o-transform:  scale(1.5)
-                                transform: scale(1.5)
+                                -webkit-transform: scale(1.2)
+                                -ms-transform: scale(1.2)
+                                -o-transform:  scale(1.2)
+                                transform: scale(1.2)
 
                         &.org-point
                             &:before
@@ -359,6 +373,24 @@ body
             max-width: 1000px !important
             #info-card
                 width: 200px !important
+
+.share-btn
+    background: #4080ff
+    border-radius: 3px
+    font-size: 11px
+    height: 20px
+    padding: 4px 10px
+    font-family: Helvetica, Arial, sans-serif
+    color: #fff
+    &:hover, &:visited, &:active
+        text-decoration: none
+        color: #fff
+
+.facebook-wrapper
+    text-align: center
+    margin-top: 40px
+    & > *
+        margin: 10px
 #footer
     .content-inner#fb-content
         background-color: rgba(255,255,255,0.8)

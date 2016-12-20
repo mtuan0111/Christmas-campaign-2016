@@ -42,14 +42,17 @@ body {
     max-width: 100%; }
 
 #main-menu {
-  position: fixed; }
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ffca1c; }
   #main-menu a.menu-btn {
     text-decoration: none; }
     #main-menu a.menu-btn:hover {
       text-decoration: none; }
   #main-menu nav {
-    text-align: center;
-    display: none; }
+    text-align: center; }
     #main-menu nav p {
       color: #ffca1c;
       font-size: 80%; }
@@ -123,7 +126,12 @@ body {
     border: none;
     display: none; }
 #contents form#login .error-message {
-  margin: 20px 0; }
+  display: none;
+  margin: 20px 0 40px;
+  color: orange;
+  font-size: 90%;
+  font-style: italic;
+  font-weight: bold; }
 #contents .content-inner.card-page {
   max-width: 1100px;
   padding: 0; }
@@ -186,9 +194,11 @@ body {
           opacity: 0.9 !important; }
     #contents .content-inner.card-page #make-card #info-card {
       padding-top: 20px;
+      padding-right: 20px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
-      box-sizing: border-box; }
+      box-sizing: border-box;
+      text-align: center; }
       #contents .content-inner.card-page #make-card #info-card .info-point {
         padding-top: 20px; }
         #contents .content-inner.card-page #make-card #info-card .info-point > a {
@@ -205,11 +215,13 @@ body {
             -webkit-transition: -webkit-transform 0.2s;
             -o-transition: -o-transform 0.2s;
             transition: transform 0.2s; }
-          #contents .content-inner.card-page #make-card #info-card .info-point > a:hover:before {
-            -webkit-transform: scale(1.5);
-            -ms-transform: scale(1.5);
-            -o-transform: scale(1.5);
-            transform: scale(1.5); }
+          #contents .content-inner.card-page #make-card #info-card .info-point > a:hover {
+            text-decoration: none; }
+            #contents .content-inner.card-page #make-card #info-card .info-point > a:hover:before {
+              -webkit-transform: scale(1.2);
+              -ms-transform: scale(1.2);
+              -o-transform: scale(1.2);
+              transform: scale(1.2); }
           #contents .content-inner.card-page #make-card #info-card .info-point > a.org-point:before {
             background: url(../img/point-ico.png) no-repeat center;
             background-size: contain; }
@@ -254,6 +266,7 @@ body {
         position: absolute;
         top: 0;
         bottom: 0;
+        padding-top: 20px;
         width: 30%;
         margin-left: -30%;
         background-color: rgba(255, 255, 255, 0.8);
@@ -262,13 +275,14 @@ body {
         -webkit-transition: margin-left 0.4s;
         -o-transition: margin-left 0.4s;
         transition: margin-left 0.4s; }
-        #contents .content-inner.card-page #list-card li .info-point a {
+        #contents .content-inner.card-page #list-card li .info-point > * + * {
+          margin-top: 15px; }
+        #contents .content-inner.card-page #list-card li .info-point a.like-point, #contents .content-inner.card-page #list-card li .info-point a.org-point {
           display: block;
-          margin: 20px 30%;
           text-align: center;
           text-decoration: none;
           color: #454545; }
-          #contents .content-inner.card-page #list-card li .info-point a:before {
+          #contents .content-inner.card-page #list-card li .info-point a.like-point:before, #contents .content-inner.card-page #list-card li .info-point a.org-point:before {
             content: "";
             height: 20px;
             width: 100%;
@@ -276,18 +290,18 @@ body {
             -webkit-transition: -webkit-transform 0.4s;
             -o-transition: -o-transform 0.4s;
             transition: transform 0.4s; }
-          #contents .content-inner.card-page #list-card li .info-point a:hover:before {
-            -webkit-transform: scale(1.5);
-            -ms-transform: scale(1.5);
-            -o-transform: scale(1.5);
-            transform: scale(1.5); }
-          #contents .content-inner.card-page #list-card li .info-point a.org-point:before {
+          #contents .content-inner.card-page #list-card li .info-point a.like-point:hover:before, #contents .content-inner.card-page #list-card li .info-point a.org-point:hover:before {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            transform: scale(1.2); }
+          #contents .content-inner.card-page #list-card li .info-point a.like-point.org-point:before, #contents .content-inner.card-page #list-card li .info-point a.org-point.org-point:before {
             background: url(../img/point-ico.png) no-repeat center;
             background-size: contain; }
-          #contents .content-inner.card-page #list-card li .info-point a.like-point:before {
+          #contents .content-inner.card-page #list-card li .info-point a.like-point.like-point:before, #contents .content-inner.card-page #list-card li .info-point a.org-point.like-point:before {
             background: url(../img/like-ico.png) no-repeat center;
             background-size: contain; }
-          #contents .content-inner.card-page #list-card li .info-point a.comment-point:before {
+          #contents .content-inner.card-page #list-card li .info-point a.like-point.comment-point:before, #contents .content-inner.card-page #list-card li .info-point a.org-point.comment-point:before {
             background: url(../img/comment-ico.png) no-repeat center;
             background-size: contain; }
       #contents .content-inner.card-page #list-card li .username {
@@ -304,6 +318,24 @@ body {
   max-width: 1000px !important; }
   #card-detail #wrapper .content-inner #info-card {
     width: 200px !important; }
+
+.share-btn {
+  background: #4080ff;
+  border-radius: 3px;
+  font-size: 11px;
+  height: 20px;
+  padding: 4px 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #fff; }
+  .share-btn:hover, .share-btn:visited, .share-btn:active {
+    text-decoration: none;
+    color: #fff; }
+
+.facebook-wrapper {
+  text-align: center;
+  margin-top: 40px; }
+  .facebook-wrapper > * {
+    margin: 10px; }
 
 #footer .content-inner#fb-content {
   background-color: rgba(255, 255, 255, 0.8); }

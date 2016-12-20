@@ -21,7 +21,7 @@ let Mouse = { x: 0, y: 0, dx: 0, dy: 0, isDown: false }
  * Background class
  */
 function Background(src, x, y, w, h) {
-    this.src = src || '';
+    this.src = src || 'common/img/bg-01.png';
     this.x = x || 0;
     this.y = y || 0;
     this.w = w || 800;
@@ -195,6 +195,7 @@ Card.prototype = {
         context.clearRect(0, 0, canvas.width, canvas.height);
         context.fillStyle = '#ffffff';
         context.fillRect(0, 0, canvas.width, canvas.height);
+
         this.background._draw(context);
         for(let i = 0; i < this.items.length; i++) {
             this.items[i]._draw(context);
@@ -588,5 +589,5 @@ Card.prototype = {
         requestAnimationFrame(update);
     }
     update();
-})()
+})();
 
