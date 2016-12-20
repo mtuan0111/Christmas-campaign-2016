@@ -4,6 +4,8 @@
     })
 
     $(document).on("click","a.menu-btn",function(){
-      $(this).next("nav").stop(true,false).slideToggle(200);
+      // $(this).next("nav").stop(true,false).slideToggle(200);
+      // alert(123);
+      $("#wrapper").toggleClass("opened-menu");
     })
 })(jQuery);

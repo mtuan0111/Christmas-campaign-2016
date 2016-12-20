@@ -27,13 +27,40 @@ body
     font-style: normal
     font-variant: normal
 
-#wrapper .content-inner
-    -webkit-box-sizing:  border-box
-    -moz-box-sizing: border-box
-    box-sizing:  border-box
-    max-width: 1000px
-    padding: 20px
-    margin: auto
+#wrapper
+    -webkit-transition: width 0.4s
+    -o-transition: width 0.4s
+    transition: width 0.4s
+    float: right
+    width: 100vw
+    &.opened-menu
+        width: calc(100vw - 250px)
+        #main-menu
+            left: 0
+            .menu-btn
+                > div
+                    background: transparent
+                    &:before
+                        top: 0
+                        -webkit-transform: rotate(45deg)
+                        -ms-transform: rotate(45deg)
+                        -o-transform: rotate(45deg)
+                        transform: rotate(45deg)
+                    &:after
+                        top: -8px
+                        -webkit-transform: rotate(calc(180deg - 45deg))
+                        -ms-transform: rotate(calc(180deg - 45deg))
+                        -o-transform: rotate(calc(180deg - 45deg))
+                        transform: rotate(calc(180deg - 45deg))
+
+
+    .content-inner
+        -webkit-box-sizing:  border-box
+        -moz-box-sizing: border-box
+        box-sizing:  border-box
+        max-width: 1000px
+        padding: 20px
+        margin: auto
 
 #header
     #campaign-name
@@ -45,51 +72,99 @@ body
 #main-menu
     position: fixed
     left: 0
+    left: -250px
     top: 0
     bottom: 0
-    background-color: #ffca1c
+    background-color: rgba(255, 255, 255, 0.9)
+    width: 250px
+    -webkit-transition: left 0.4s
+    -o-transition: left 0.4s
+    transition: left 0.4s
+
     a.menu-btn
         text-decoration: none
+        position: absolute
+        top: calc(50% - 15px)
+        right: -50px
+        height: 30px
+        width: 30px
+        > div
+            width: 30px
+            height: 4px
+            background: #ffca1b
+            -webkit-transition: background 0.2s
+            -o-transition: background 0.2s
+            transition: background 0.2s
+            position: absolute
+            top: 50%
+            &:before, &:after
+                content: ""
+                position: absolute
+                width: 30px
+                height: 4px
+                background: #ffca1b
+                -webkit-transition: -webkit-transform 0.4s, top 0.4s
+                -o-transition: -o-transform 0.4s, top 0.4s
+                transition: transform 0.4s, top 0.4s
+
+            &:before
+                top: -10px
+                left: 0
+
+            &:after
+                top: 10px
+                left: 0
+
         &:hover
             text-decoration: none
     nav
         // background: #ffca1c
-        // position: absolute
+        position: absolute
         // right: 95%
         text-align: center
         // display: none
+        width: 100%
+        top: 20%
+        // transform: translateY(-50%)
+        // -ms-transform: translateY(-50%)
+        // -webkit-transform: translateY(-50%)
+        // -moz-transform: translateY(-50%)
         p
+            &.signedin
+                color: #979797
             // display:block
             color: #ffca1c
             // text-align: left
             font-size: 80%
             span
                 display: block
-                color: #ffca1c
+                color: orange
                 // font-size: 80%
                 margin-top: 10px
                 padding: 10px 20px
-                border: solid 1px #ffca1c
+                border: solid 1px orange
                 font-style: italic
                 border-bottom: none
-
+                font-weight: bold
 
         a
             display: block
             color: #454545
             font-size: 80%
-            padding: 10px 20px
-            background: #ffca1c
+            padding: 20px
+            // background: #ffca1c
             font-weight: bold
             opacity: 0.8
-            -webkit-transition: margin 0.1s
-            -o-transition: margin 0.1s
-            transition: margin 0.1s
+            -webkit-transition: margin 0.1s, background 0.4s
+            -o-transition: margin 0.1s, background 0.4s
+            transition: margin 0.1s, background 0.4s
             &:hover
+                background: #ffca1c
                 text-decoration: none
                 opacity: 1
-                margin-left: 2px
+                // margin-left: 2px
                 margin-right: -2px
+                // color: #fff
 // background: rgba(255,255,255,1)
 // background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0) 97%, rgba(255,255,255,0) 100%)
 // background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(21%, rgba(255,255,255,1)), color-stop(50%, rgba(255,255,255,0.9)), color-stop(97%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)))

@@ -22,9 +22,6 @@ html(lang="en")
             #toolbar-card
               ul.tab
                 li(title="Test title")
-                  a.tablinks.active(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
-                    img(src='common/img/text-ico.png')
-                li(title="Test title")
                   a.tablinks(href='javascript:void(0)', onclick="openTab(event, 'background-part')")
                     img(src='common/img/background-ico.png')
                 li(title="Test title")
@@ -73,47 +70,90 @@ html(lang="en")
               #object-part.tabcontent
                 #object-size
                   input#object-range(type="range" name="object-size" min="20" max="100" value="100")
-                a.group-name(href="javascript:void(0)") Santas
+                a.group-name(href="javascript:void(0)") Ông già Noel
                 ul(data-group-name="Santa")
-                  li
-                    img(src="common/img/tmp-00-ob01.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob02.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob03.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob04.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob05.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob06.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob07.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob08.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob09.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob10.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-00-ob11.png")
+                  -var number = 16
+                  -var folder = "Santas"
+                  -var file = "Santa_"
+                  -for (var i = 1; i <= number; ++i)
+                    li(title=folder+" "+i)
+                      a.tablinks.active(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
+                        - if (i<10)
+                          - var s = '0'+i;
+                        - else
+                          - var s = i;
+                        img(src='common/img/'+folder+'/'+file+s+'.png')
 
-                a.group-name(href="javascript:void(0)") Santa
-                ul(data-group-name="Noel Tree")
-                  li
-                    img(src="common/img/tmp-01-ob1.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-01-ob2.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-01-ob3.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-01-ob4.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-01-ob5.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-01-ob6.png")
-                  li(title="Test title")
-                    img(src="common/img/tmp-02-ob1.png")
+                a.group-name(href="javascript:void(0)") Bông tuyết
+                ul(data-group-name="Bông tuyết")
+                  -var number = 69
+                  -var folder = "Snows"
+                  -var file = "Snow_"
+                  -for (var i = 1; i <= number; ++i)
+                    li(title=folder+" "+i)
+                      a.tablinks.active(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
+                        - if (i<10)
+                          - var s = '0'+i;
+                        - else
+                          - var s = i;
+                        img(src='common/img/'+folder+'/'+file+s+'.png')
+
+                a.group-name(href="javascript:void(0)") Gói quà noel
+                ul(data-group-name="Gói quà noel")
+                  -var number = 14
+                  -var folder = "Gifts"
+                  -var file = "Gift_"
+                  -for (var i = 1; i <= number; ++i)
+                    li(title=folder+" "+i)
+                      a.tablinks.active(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
+                        - if (i<10)
+                          - var s = '0'+i;
+                        - else
+                          - var s = i;
+                        img(src='common/img/'+folder+'/'+file+s+'.png')
+
+                a.group-name(href="javascript:void(0)") Con vật Noel
+                ul(data-group-name="Con vật Noel")
+                  -var number = 31
+                  -var folder = "Animals"
+                  -var file = "Animal_"
+                  -for (var i = 1; i <= number; ++i)
+                    li(title=folder+" "+i)
+                      a.tablinks.active(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
+                        - if (i<10)
+                          - var s = '0'+i;
+                        - else
+                          - var s = i;
+                        img(src='common/img/'+folder+'/'+file+s+'.png')
+
+                a.group-name(href="javascript:void(0)") Cây thông Noel
+                ul(data-group-name="Cây thông Noel")
+                  -var number = 35
+                  -var folder = "Trees"
+                  -var file = "Tree_"
+                  -for (var i = 1; i <= number; ++i)
+                    li(title=folder+" "+i)
+                      a.tablinks.active(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
+                        - if (i<10)
+                          - var s = '0'+i;
+                        - else
+                          - var s = i;
+                        img(src='common/img/'+folder+'/'+file+s+'.png')
+
+                a.group-name(href="javascript:void(0)") Vật trang trí khác
+                ul(data-group-name="Vật trang trí khác")
+                  -var number = 86
+                  -var folder = "Obs"
+                  -var file = "Ob_"
+                  -for (var i = 1; i <= number; ++i)
+                    li(title=folder+" "+i)
+                      a.tablinks.active(href='javascript:void(0)', onclick="openTab(event, 'text-part')")
+                        - if (i<10)
+                          - var s = '0'+i;
+                        - else
+                          - var s = i;
+                        img(src='common/img/'+folder+'/'+file+s+'.png')
+
               #submit-part.tabcontent
                 ul.method-btn
                   li(title="Test title")
