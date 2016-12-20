@@ -205,7 +205,7 @@ Card.prototype = {
 
         let logo = new Image();
         logo.src = 'common/img/canvas_logo.png';
-        context.drawImage(logo, 0, 0, 238, 87);
+        context.drawImage(logo, 20, 20, 203, 52);
     }
 }
 
